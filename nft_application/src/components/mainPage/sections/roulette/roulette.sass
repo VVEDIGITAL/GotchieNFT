@@ -1,0 +1,84 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+.roulette
+    position: relative
+    margin-top: 10%
+
+    .parallax-sky
+        position: absolute
+        width: 80%
+        top: -20%
+        left: -35%
+        opacity: 0.4 !important
+
+
+    .parallax-right-sky
+        position: absolute
+        width: 50%
+        top: -20%
+        left: 0%
+
+
+    .container
+        display: flex
+        align-items: center
+        max-width: 1400px
+        margin: 0 auto
+        position: relative
+
+        .text-side
+            padding-left: 5%
+            width: 50%
+
+        video
+            width: 50%
+            transform: translate(0%, -10%)
+            filter: drop-shadow(-10px 10px 50px rgba(253, 253, 255, 0.3))
+
+        h1
+        
+            @include adaptiv-font(48, 23)
+            font-family: "Gepestev"
+            color: rgb(255, 255, 255)
+            
+            font-weight: 600
+            margin-bottom: 8%
+
+        h3
+        
+            width: 80%
+            letter-spacing: 0.7px
+            @include adaptiv-font(20, 16)
+            font-family: "Gepestev"
+            color: rgb(255, 255, 255)
+            text-align: left
+            font-weight: 300
+            margin-bottom: 5%
+
+        button
+        
+            margin: 0
+            
+
+        @media (max-width: 600px)
+            .text-side
+                width: 100%
+                h1
+                    width: 100%
+                h3
+                    width: 50%
+
+            position: relative
+
+  
+
+            video
+                position: absolute
+                top: 50%
+                right: 0%
+                transform: translate(50%, -59%) rotate(-10deg) scale(2)
+                filter: drop-shadow(-10px 10px 10px rgba(253, 253, 255, 0.3))

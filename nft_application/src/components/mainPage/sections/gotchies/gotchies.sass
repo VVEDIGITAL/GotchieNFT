@@ -1,0 +1,111 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+
+.gotchies
+    margin-top: 20%
+   
+    
+    position: relative
+
+    .gotchies_island1, .gotchies_island2
+
+        position: absolute
+        z-index: 1
+        width: 50%
+        height: 100%
+        object-fit: cover
+        display: inline-flex
+
+        video
+            margin: auto 0
+            max-width: 100%
+
+    
+    .gotchies_island1
+        video
+            margin-left: auto
+        left: 0
+        transform: translateX(-50%)
+
+
+    .gotchies_island2
+        video
+            margin-right: auto
+        right: 0
+        transform: translateX(50%)
+
+    .container
+        margin: 0 auto
+        position: relative
+        max-width: 1200px
+        align-items: center
+
+        // .gotchies_island1, .gotchies_island2
+        //     position: absolute
+        //     z-index: 1
+        //     width: 50%
+        //     height: auto
+
+        // .gotchies_island1
+        //     left: -50%
+
+        // .gotchies_island2
+        //     right: -50%
+
+        .gotchies_smoke
+            position: absolute
+            top: 40%
+            right: -50%
+            width: 110%
+            opacity: 0.65
+            z-index: 0
+            object-fit: cover
+            img
+                max-width: 100%
+
+        h2
+            margin: 0px
+            margin-bottom: 45px
+            font-family: Gepestev
+            @include adaptiv-font(45, 32)
+            font-weight: 900
+            font-stretch: normal
+            font-style: normal
+            line-height: 1.39
+            letter-spacing: normal
+            text-align: center
+            color: white
+
+        .cards
+            display: flex
+            justify-content: center
+            // column-gap: 8%
+            flex-wrap: wrap
+            margin-right: 0px
+            @media ( max-width: 800px)
+                display: none
+            
+            .gotchie_card
+                margin-left: 4%
+                margin-right: 4%
+                
+        .second_cards
+            display: flex
+            margin-top: 50px
+            justify-content: center
+            // column-gap: 8%
+            flex-wrap: wrap
+            @media ( max-width: 800px)
+                display: none
+            
+            .gotchie_card
+                margin-left: 4%
+                margin-right: 4%
+
+        .swiper_container
+            display: none
+            @media ( max-width: 800px)
+                display: block

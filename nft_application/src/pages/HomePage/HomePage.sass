@@ -1,0 +1,96 @@
+body
+    background: radial-gradient(#ca2c92,  #240935)
+    
+.full_container
+    max-width: 100%
+    overflow: hidden
+
+// Adaptive font
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+
+// Bg
+.first-bg-handler, .sec-bg-handler, .third-bg-handler
+    z-index: -100000
+
+.first-bg-handler
+    background: radial-gradient(rgb(250, 143, 164),  rgb(116, 33, 123))
+
+.sec-bg-handler
+    background: radial-gradient(rgb(250, 143, 164),  rgb(116, 33, 123)), linear-gradient(rgb(46, 5, 73),  rgb(16, 2, 23))
+
+.third-bg-handler
+    background: linear-gradient(rgb(46, 5, 73),  rgb(16, 2, 23))
+    padding-bottom: 1%
+
+.pvp
+    background: linear-gradient( rgba(250, 143, 164, 0),  rgb(46, 5, 73))
+
+// Bg
+
+
+// Container
+.gotchies, .avatars, .sales, .partners
+    h1
+        @include adaptiv-font(48, 26)
+
+    .container, .squared-container
+
+            margin: 0 auto
+            @media (min-width: 1400px)
+                max-width: 1400px
+
+            @media (min-width: 1300px) and (max-width: 1399px) 
+                max-width: 1300px
+
+
+            @media (min-width: 1200px) and (max-width: 1299px) 
+                max-width: 1200px
+    
+            
+            @media (min-width: 992px) and (max-width: 1199px) 
+                max-width: 992px
+
+            
+            @media (min-width: 768px) and (max-width: 991px)
+                max-width: 768px
+
+
+            @media (min-width: 480px) and (max-width: 767px)
+                max-width: 480px
+    
+
+            @media (min-width: 320px) and (max-width: 479px)
+                max-width: 343px
+
+
+            @media (max-width: 320px) 
+                max-width: 320px
+    
+// button
+.housing, .adventures ,.roulette, .avatars, .video_title
+    button
+        box-shadow: 0px 0px 10.66px 2.34px rgba(0, 0, 0, 0.41)
+        width: fit-content
+        text-align: center
+        min-width: 90px
+        border-radius: 10px 
+        white-space: nowrap
+        outline: none
+        padding: 0% 3% 0.5% 3%
+        border: 0
+        font-family: Gepestev
+        @include adaptiv-font(24.5, 18)
+        font-weight: bolder
+        color: #fffeff
+        cursor: pointer
+    
+        margin-right: 10px
+        background-image: linear-gradient(to right, #f18e1a, #f11aad)
+        transition: box-shadow 0.4s
+
+    button:hover
+        box-shadow: 0px 0px 10.66px 2.34px rgba(216, 216, 216, 0.41)

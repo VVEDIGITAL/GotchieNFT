@@ -1,0 +1,132 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+.gotchie_card
+    z-index: 3
+    box-shadow: 0 0 12.3px 2.2px rgba(0, 0, 0, 0.31)
+    padding: 0.5% 0.5%
+    background-color: rgba(0, 0, 0, 0.24)
+    border-radius: 15px
+    margin-top: 40px
+    width: 20%
+    display: flex
+    flex-direction: column
+    transition: box-shadow 1s 
+    
+
+
+    .gotchie-img
+        width: 100%
+        position: relative
+        img, video
+            width: 100%
+
+            object-fit: cover
+            object-position: center
+        
+
+    .description
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        width: 100%
+        padding: 2% 0% 2% 0%
+        height: 100%
+
+        .first_line
+
+            display: flex
+            justify-content: space-between
+            width: 100%
+            align-items: center
+            padding: 0px 5px
+
+            span
+                font-family: "Gepestev"
+                @include adaptiv-font(20, 14)
+                font-weight: bolder
+                text-align: left
+                color: #fff
+
+            button
+                text-align: center
+                width: fit-content
+                padding: 0% 5% 1% 6%
+                @include adaptiv-font(16, 14)
+                border-radius: 10px 
+                box-shadow: 0 0 3.4px 0.6px rgba(0, 0, 0, 0.41)
+                outline: none
+                background: none
+                border: 0
+                font-family: "Gepestev"
+                font-weight: bolder
+                color: #fffeff
+                margin-right: 10px
+
+
+            .common
+                background-image: linear-gradient(to right, #f1b21a, #75be0d)
+
+            .rare
+                background-image: linear-gradient(to right , #1a7ff1, #8e0dbe)
+
+            .uncommon
+                background-image: linear-gradient(to right , #f1c11a, #8e0dbe)
+                @include adaptiv-font(16, 12)
+
+            .epic
+                 background-image: linear-gradient(to right, #f11aad, #8e0dbe)
+
+            .legendary
+                background-image: linear-gradient(to right, #f18e1a, #be0d2b)
+                @include adaptiv-font(16, 12)
+
+
+        .second_line
+
+            margin-top: 8px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 0px 5px
+
+            span
+                @include adaptiv-font(14, 10)
+                font-weight: 600
+                color: #fff
+                font-family: "Gepestev"
+
+            a
+                font-family: "Gepestev"
+                @include adaptiv-font(14, 10)
+                font-weight: bolder
+                font-stretch: normal
+                font-style: normal
+                line-height: 0.98
+                letter-spacing: normal
+                text-align: left
+                color: #d8a1ff
+                text-decoration: none
+
+.gotchie_card:hover
+    box-shadow: 0 0 13px 15px rgba(255, 255, 255, 0.31)
+
+@media ( max-width: 800px )
+    .gotchie_card
+        margin: 0
+        width: 80%
+        margin: 0 auto
+        
+    .gotchie_card:hover
+            box-shadow: 0 0 0px 0px rgba(255, 255, 255, 0.0)
+
+@media ( max-width: 500px )
+
+
+
+    .gotchie_card
+        width: 90%
+        padding: 1% 1%

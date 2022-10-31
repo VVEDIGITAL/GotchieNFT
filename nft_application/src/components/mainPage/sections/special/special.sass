@@ -1,0 +1,85 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+
+
+.special
+    margin-top: 10%
+    
+    .container
+        position: relative
+        max-width: 1300px
+        margin: 0 auto
+
+        h1
+            text-align: center
+            @include adaptiv-font(48, 23)
+            font-family: "Gepestev"
+            color: rgb(255, 255, 255)
+
+            font-weight: bolder
+            margin-bottom: 5%
+            letter-spacing: 1.5px
+
+        h3
+            width: 50%
+            letter-spacing: 0.7px
+            @include adaptiv-font(16, 16)
+            font-family: "Gepestev"
+            color: rgb(255, 255, 255)
+            text-align: center
+            font-weight: 300
+            margin-bottom: 5%
+            line-height: 1.5
+            margin: 0 auto
+            @media ( max-width: 800px)
+                width: 80%
+        .bg
+            position: absolute
+            max-width: 100%
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            z-index: -1
+
+        .cards
+            display: flex
+            justify-content: space-around
+            
+            .gotchie_special
+                z-index: 3
+                box-shadow: 0 0 111px 10px rgba(255, 217, 0, 0.31)
+                padding: 4px 4px
+                background-color: rgba(0, 0, 0, 0.24)
+                border-radius: 15px
+                margin-top: 40px
+                padding-bottom: 10px
+                width: 25%
+
+                @media ( max-width: 800px)
+                    width: 30%
+                @media ( max-width: 500px)
+                    width: 50%
+
+                video
+                    width: 100%
+                    position: relative
+                    object-fit: cover
+                    object-position: center
+                    
+                .description
+                    padding: 5% 0 5% 0
+                    h3
+                        width: 100%
+                        letter-spacing: 0.7px
+                        @include adaptiv-font(16, 12)
+                        font-family: "Gepestev"
+                        color: rgb(255, 255, 255)
+                        text-align: center
+                        font-weight: 300
+                        margin-bottom: 5%
+                        line-height: 1.5
+                        margin: 0 auto

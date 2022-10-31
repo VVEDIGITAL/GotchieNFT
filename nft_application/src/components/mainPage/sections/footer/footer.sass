@@ -1,0 +1,171 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+footer
+
+    margin-top: 10%
+    
+    @media  (max-width: 600px)
+        padding-bottom: 7%
+
+    .container
+        width: 90%
+        margin: 0 auto
+        
+
+
+    width: 100%
+    h3, h4
+        color: #fff
+        font-family: "Gepestev"
+
+    h3
+        text-align: center
+        @include adaptiv-font(18, 16)
+        
+    .copyrights
+        margin-bottom: 0
+        opacity: 0.9
+
+    h4
+        opacity: 0.85
+        @include adaptiv-font(16, 13)
+    
+    a
+        cursor: pointer
+
+    a:hover
+        h4
+            text-decoration: underline
+
+    .sections
+        width: 70%
+        display: flex
+
+        justify-content: space-between
+        margin: 0 auto
+
+        @media  (max-width: 700px)
+            flex-direction: column
+            width: 100%
+
+        .social
+            h3
+                white-space: nowrap
+
+            width: 20%
+
+            .discord-mobile
+                display: none
+
+            @media  (max-width: 700px)
+                h3
+                    text-align: left
+                display: flex
+                flex-direction: column
+                width: 100%
+                .discord-mobile
+                    display: block
+
+            .first
+                display: flex
+                justify-content: center
+                a
+                    width: 25%
+                    object-fit: cover
+                    img
+                        max-width: 100%
+
+                .telegram
+                    object-position: right
+                    
+                    img
+                        display: block
+                        margin-left: auto
+
+                    @media  (max-width: 700px)
+                        img
+                            margin: 0 
+
+                @media  (max-width: 1000px) and (min-width: 701px)
+
+                    flex-direction: column
+                    align-items: center
+                    a
+                        width: 35%
+                        margin-bottom: 4%
+
+                @media  (max-width: 700px)
+                    display: flex
+                    width: 30%
+                    margin-left: 0%
+                    flex-direction: row
+                    justify-content: normal
+                    align-items: center
+                 
+             
+                    a
+                        width: auto
+                        padding: 0 5% 0 5%
+
+                @media  (max-width: 500px)
+                    width: 40%
+                          
+
+            .discord
+                display: block
+                margin: 0 auto
+                width: 20%
+                object-fit: contain
+
+                @media  (max-width: 1000px) and (min-width: 701px)
+                        width: 35%
+
+                @media  (max-width: 700px)
+                    display: none 
+
+    
+        .invest, .game, .docs
+            width: 20%
+
+            @media  (max-width: 700px)
+                display: flex
+                width: auto
+                h3
+                    padding-right: 5%
+
+            @media  (max-width: 500px)
+                flex-direction: column
+                h4
+                    margin-top: 0
+                    margin-bottom: 0
+
+            h3
+                text-align: left
+
+            .links
+                margin-top: 10px
+
+                h4
+                    font-weight: 100
+
+                @media  (max-width: 700px)
+                    display: flex
+                    column-gap: 9%
+                    margin-top: 0px
+                    
+                    
+        .docs
+            @media  (max-width: 700px)
+                h4
+                    white-space: nowrap
+                h3
+                    padding-right: 6.5%
+
+        .invest
+            @media  (max-width: 700px)
+                h3
+                    padding-right: 4%

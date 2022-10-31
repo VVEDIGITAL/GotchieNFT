@@ -1,0 +1,237 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+    
+.hero
+    height: fit-content
+    width: 100%
+    position: relative
+    background: radial-gradient(#ca2c92,  #240935)
+    margin-top: 41px
+
+    @media (max-width: 1780px)
+        .islands
+            height: 100%
+
+    .container
+        margin: 0 auto
+        // padding-bottom: calc(100em - 280px)
+        display: flex
+        justify-content: right
+
+        @media (min-width: 1400px)
+            max-width: 1400px
+            padding-bottom: 780px
+
+        
+
+        .text_area
+                position: absolute
+                top: 10%
+                right: 5%
+                
+                display: flex
+                flex-direction: column
+                align-items: center
+                
+                padding: 0px 7px
+                z-index: 6
+                
+
+                h1, h2
+                    letter-spacing: normal
+                    text-align: center
+                    color: #fff  
+
+                h1
+                    margin: 0px
+                    font-family: Avenger
+                    font-weight: normal
+                    font-stretch: expanded
+                    font-style: italic
+                    line-height: 0.85
+                    
+
+                h2
+                    margin: 0px
+                    margin-top: 3%
+                    font-family: Gepestev
+                    font-size: 30px
+                    font-weight: 500
+                    font-stretch: normal
+                    font-style: normal
+                    line-height: 0.87
+                    @include adaptiv-font(25, 7)
+
+                .crypto_h1
+
+                    @include adaptiv-font(70, 20)
+                   
+                .gotchies_h1
+                    font-size: 53px
+                    font-weight: normal
+
+                    @include adaptiv-font(53, 15)
+
+                button
+                    margin-top: 5%
+                    width: fit-content
+                    cursor: pointer
+                    font-family: Gepestev
+                    @include adaptiv-font(28, 10)
+                    font-weight: 900
+                    text-align: center
+                    white-space: nowrap
+                    color: #fff
+                    transition: all 5s ease
+                    padding: 1% 10%
+
+
+                button:hover
+                    background-image: linear-gradient(to left, #2481d8, #0de3cc)
+                        
+    .islands
+        position: absolute
+        width: 52%
+        height: 80%
+
+
+    .dragon-img
+        position: absolute
+        max-width: 80%
+        width: 80%
+        height: auto 
+
+        z-index: 4
+        bottom: 0
+        right: 0
+
+
+    .smokes
+        height: 100%
+        width: 100%
+        position: absolute
+        bottom: 0
+
+    .smoke
+        width: 1000px
+        position: absolute
+        opacity: 0.6
+        filter: blur(5 px)
+
+
+    .right_below
+        left: -30%
+        opacity: 1
+        z-index: 7
+
+        
+
+    .left_below
+        right: -10%
+        opacity: 1
+        z-index: 7
+
+        
+    .left_below, .right_below
+        width: 86%
+        bottom: 0
+        transform: translateY(65%)
+
+     
+
+        
+
+    .dragon_above
+        left: 45%
+        top: 30%
+        width: 80%
+        opacity: 0.9
+        z-index: 2
+
+
+    .dragon_left
+
+        opacity: 0.9
+        width: 90% 
+        left: -22%
+        bottom: 0
+        z-index: 3
+        transform: translateY(41%)
+
+
+
+    .island_first
+        width: 110%
+        z-index: 2
+        opacity: 0.55
+        left: -35%  
+        top: 2%
+        transform: rotate(10deg)
+
+            
+        
+
+            
+
+    .island_second
+        width: 120%
+        z-index: 0
+        opacity: 0.20 
+        left: -50%  
+        top: -35%
+
+        @media  (max-width: 991px)
+            opacity: 0.26 
+        
+    .header_smoke
+        width: 50%
+        right: -30%
+        top: -40%
+        transform: translateY(50%)
+
+        
+
+    .island4, .island3, .island2, .island1
+        position: absolute
+        z-index: 1
+
+
+
+
+
+
+    .island1
+
+        width: 19%
+        right: 0
+        z-index: 2
+        top: 3%
+
+
+
+
+
+    .island2
+        width: 23%
+        left: 5%
+        top: 4%
+
+    
+
+    .island3
+        z-index: 3
+        left: -1%
+        top: 27%
+        width: 60%
+
+
+    .island4
+        top: 2%
+        left: 54%
+        width: 34%
+        transform: translateX(-50%)
+ 

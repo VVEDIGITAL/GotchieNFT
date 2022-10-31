@@ -1,0 +1,135 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+.tokens
+    .container
+        width: 80%
+        max-width: 1300px
+        margin: 0 auto
+        position: relative
+
+        @media  (max-width: 769px)
+            width: 95%
+
+        h1, h2, h3 
+            font-family: "Gepestev"
+            text-align: center
+
+        h1
+            color: rgb(255, 255, 255)
+            
+            font-weight: bolder
+            margin-top: 0
+            @include adaptiv-font(48, 26)
+
+        h2
+            color: orange
+            @include adaptiv-font(26, 20)
+
+        h3
+            color: #fff
+            width: 70%
+            margin: 0 auto
+            @include adaptiv-font(20, 16)
+            @media  (max-width: 769px)
+                width: 100%
+
+        .token-info
+            margin-top: 4%
+            display: flex
+            // width: 60%
+            justify-content: center
+            
+
+            .token-img
+                width: 40%
+                height: 90%
+                display: inline-block
+                object-fit: fill
+                img
+                    // height: 90%
+                    display: inline-block
+                    object-fit: contain
+                    height: 90%
+                    width: 100%
+
+                @media  (max-width: 500px)
+                    position: absolute
+                    left: 0%
+                    z-index: 0
+                    top: 45%
+                    transform: translate(-50% , 0%)
+                    width: 75%
+                    opacity: 0.6
+
+            .text
+                width: 60%
+                padding-left: 5%
+                z-index: 6
+                @media  (max-width: 500px)
+                    width: 80%
+
+                h3
+                    width:100%
+                    color: orange
+                    text-align: right
+                    margin: 3% 0 3% 0
+
+                    span
+                        color: #fff
+
+
+                .address
+                    overflow: hidden
+                    text-overflow: ellipsis
+                    white-space: nowrap
+
+                .h3:hover
+                    white-space: normal
+
+        .info-web
+            margin-top: 10%
+            
+            a
+                border: 1px solid rgba(1,1 ,1 ,0 )
+                transition: border-color 1s ease
+                border-radius: 10px
+                cursor: pointer
+                
+            h3
+                color: #fff
+                transition: color 0.8s ease
+
+
+            .first
+                display: flex
+                justify-content: space-between
+                a
+                    width: 40%
+                    padding: 0px 1% 0px 1%
+                    h3
+                        text-align: center
+                        color: #fff
+
+            .sec
+                margin-top: 5%
+                display: flex
+                justify-content: space-between
+
+                a
+                    width: 40%
+                    padding: 0px 1% 0px 1%
+                    h3
+                        text-align: center
+                        color: #fff
+            
+            a:hover
+             
+           
+                border: 1px solid #ff8800
+                h3
+                    color: #ff8800
+ 

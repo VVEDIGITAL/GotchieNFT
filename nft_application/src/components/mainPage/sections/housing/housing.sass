@@ -1,0 +1,97 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+.housing
+    position: relative
+    z-index: 10
+
+    .container
+        position: relative
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        button
+            z-index: 10
+            padding: 0% 20px 0.2% 20px
+     
+        h1
+            text-align: center
+            @include adaptiv-font(48, 23)
+            font-family: "Gepestev"
+            color: rgb(255, 255, 255)
+            
+            font-weight: 900
+            letter-spacing: 2px
+
+        h3
+            margin: 0 auto
+            width: 80%
+            letter-spacing: 0.7px
+            @include adaptiv-font(18, 16)
+            font-family: "Gepestev"
+            color: rgb(255, 255, 255)
+            text-align: center
+            font-weight: 300
+
+            img
+                display: inline-block
+                margin: 0 auto
+                max-width: 90%
+
+  
+        .rooms
+            
+            position: relative
+            display: inline-flex
+        
+            width: 90%
+            height: calc(100vw * 0.39)
+            max-height: 700px
+            max-width: 1440px
+            margin-top: 3%
+            margin-left: 9%
+
+            .room1
+                width: 30%
+                position: absolute
+                left: 0
+                top: 0
+                z-index: 1
+                max-width: 40%
+                filter: drop-shadow(0px 30px 40px rgba(0, 0, 0, 0.5))
+
+            .room2
+                width: 30%
+                position: absolute
+                z-index: 3
+                left: 23%
+                top: 20%
+                filter: drop-shadow(0px 55px 60px rgba(0, 0, 0, 0.5))
+
+            .room3
+                width: 30%
+                position: absolute
+                left: 40%
+                top: -3%
+                z-index: 1
+                filter: drop-shadow(0px 30px 40px rgba(0, 0, 0, 0.5))
+
+
+            .room4
+                width: 30%
+                position: absolute
+                left: 62%
+                top: 15%
+                z-index: 3
+                filter: drop-shadow(0px 55px 60px rgba(0, 0, 0, 0.5))
+
+       
+
+
+    @media (max-width: 600px)
+        h3
+            width: 95% !important

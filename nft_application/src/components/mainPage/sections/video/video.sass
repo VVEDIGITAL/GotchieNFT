@@ -1,0 +1,118 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+    
+.video_title
+    overflow: visible
+    position: relative
+    margin-top: 30%
+    
+
+    .parallax-sky
+        left: -30%
+        bottom: -30%
+        position: absolute
+        width: 70%
+        max-width: 100%
+        z-index: 0
+        @media screen and (max-width: 600px)
+            width: 80%
+
+    .parallax-right-sky
+        max-width: 100%
+        right: -30%
+        top: 35%
+        position: absolute
+        width: 60%    
+        @media screen and (max-width: 633px)
+            top: 80%
+            right: -40%
+            width: 80% 
+
+    .container
+        position: relative
+        overflow: visible
+        max-width: 80%
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        align-items: center
+        @media screen and (max-width: 800px)
+            max-width: 90%
+
+        .video_handler
+            margin: 0 auto
+            position: relative
+            width: 80%
+            max-width: 818px
+            align-items: center
+            @media screen and (max-width: 800px)
+                width: 95%
+
+            .handler
+                display: block
+                z-index: 10
+                position: relative
+                margin: 0 auto
+                
+
+            button
+                position: absolute
+                top: 48%
+                left: 50%
+                transform: translate(-50%, 50%)
+                z-index: 11
+                @include adaptiv-font(25, 16)
+                @media screen and (max-width: 600px)
+                    transform: translate(-50%, 20%)
+
+            .left-fire
+                width: 18%
+                position: absolute
+                left: 18.7%
+                bottom: -8.5%
+                z-index: 2
+
+            .right-fire
+                width: 18%
+                position: absolute
+                right: 18.7%
+                bottom: -8.5%
+                z-index: 2
+
+        img
+            max-width: 100%
+  
+
+        h2
+            width: 90%
+            font-family: Gepestev
+            @include adaptiv-font(30, 25)
+            font-weight: 900
+            font-stretch: normal
+            font-style: normal
+
+            
+            margin: 0px
+            margin-bottom: 35px
+            color: white
+            text-align: center
+
+        h3
+            width: 69%
+            margin: 0px
+            margin-bottom: 40px
+            font-family: Gepestev
+            @include adaptiv-font(22, 16)
+            font-weight: 500
+            font-stretch: normal
+            font-style: normal
+            line-height: 1.39
+            letter-spacing: normal
+            text-align: center
+            color: white
+            @media screen and (max-width: 600px)
+                width: 90%
+    
