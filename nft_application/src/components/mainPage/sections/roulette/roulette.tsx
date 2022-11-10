@@ -58,25 +58,6 @@ export function Roulette() {
             Gotchi Wheel is an mathematically legit gambling game with high
             potential ROI and fair RTP of 89%
           </h3>
-          <motion.button
-            initial={{
-              opacity: 0.6,
-            }}
-            whileHover={{
-              scale: 1.2,
-              transition: {
-                duration: 1,
-              },
-            }}
-            whileTap={{
-              scale: 0.9,
-            }}
-            whileInView={{
-              opacity: 1,
-            }}
-          >
-            Learn More
-          </motion.button>
         </div>
         <video playsInline autoPlay loop muted>
           <source src={roulette_mov} type='video/mp4; codecs="hvc1" ' />

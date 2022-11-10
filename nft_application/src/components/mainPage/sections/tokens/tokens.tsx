@@ -39,8 +39,8 @@ export function Tokens() {
 
             <div className="info-web">
               <div className="first">
-                <a>
-                  <h3>Documentation</h3>
+                <a href="https://cryptogotchies.gitbook.io/whitepaper/tokenomics">
+                  <h3>Learn more</h3>
                 </a>
                 <a>
                   <h3>Audits</h3>

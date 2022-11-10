@@ -15,6 +15,7 @@ import island3_mov from "../../../../assets/main/island3.mov";
 import island4_mov from "../../../../assets/main/island4.mov";
 
 import "./adventures.sass";
+import { NavLink } from "react-router-dom";
 
 export function Adventures() {
   const variants2 = {
@@ -53,7 +54,7 @@ export function Adventures() {
             opacity: 1,
           }}
         >
-          Explore The World
+          <NavLink to={"/mint"}>Mint Fun Lands</NavLink>
         </motion.button>
       </div>
 
@@ -87,7 +88,7 @@ export function Adventures() {
               opacity: 1,
             }}
           >
-            Explore The World
+            <NavLink to={"/mint"}>Mint Fun Lands</NavLink>
           </motion.button>
         </div>
         <div className="sky-images">

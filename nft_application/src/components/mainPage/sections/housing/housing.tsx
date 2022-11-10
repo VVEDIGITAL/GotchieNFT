@@ -91,7 +91,7 @@ export function Housing() {
           />
         </div>
 
-        <motion.button
+        {/* <motion.button
           initial={{
             opacity: 0.6,
           }}
@@ -109,7 +109,7 @@ export function Housing() {
           }}
         >
           Learn More
-        </motion.button>
+        </motion.button> */}
       </div>
     </section>
   );

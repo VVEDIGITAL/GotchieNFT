@@ -36,6 +36,7 @@ footer
     
     a
         cursor: pointer
+        text-decoration: none
 
     a:hover
         h4
@@ -58,9 +59,6 @@ footer
 
             width: 20%
 
-            .discord-mobile
-                display: none
-
             @media  (max-width: 700px)
                 h3
                     text-align: left
@@ -73,11 +71,28 @@ footer
             .first
                 display: flex
                 justify-content: center
+                flex-wrap: wrap
+
+                
+                margin: auto
+
+                @media ( min-width: 2340px )
+                    width: 60%
+                    margin: auto
+
+                @media (max-width: 2339px) and ( min-width: 1441px)
+                    width: 75%
+
                 a
-                    width: 25%
+                    width: 30%
                     object-fit: cover
+                    padding: 3%
+                
+                .telegram, .discord, .twitter
+
                     img
                         max-width: 100%
+                        
 
                 .telegram
                     object-position: right
@@ -108,24 +123,48 @@ footer
                  
              
                     a
-                        width: auto
+                        width: 15%
                         padding: 0 5% 0 5%
 
                 @media  (max-width: 500px)
-                    width: 40%
+                    width: 80%
+
+                    a
+                        width: 10%
+                        padding: 0 2% 0 2%
                           
+            .youtube
+   
+        
+                img
+
+                    display: block
+                    margin: auto
+                    display: block
+                    /* margin: auto; */
+                    /* max-width: 90%; */
+                    height: 100%
+                    width: 90%
+                    object-fit: contain
+                    object-position: center
+                    margin: 0 auto
+
+
+
+                    @media ( min-width: 2340px )
+                        max-width: 100% 
+
+                    @media (max-width: 2339px) and ( min-width: 1441px)
+                        max-width: 90% 
 
             .discord
                 display: block
-                margin: 0 auto
-                width: 20%
                 object-fit: contain
+                max-width: 100%
 
-                @media  (max-width: 1000px) and (min-width: 701px)
-                        width: 35%
 
-                @media  (max-width: 700px)
-                    display: none 
+
+                
 
     
         .invest, .game, .docs

@@ -23,7 +23,7 @@ export function Header() {
               <li>Features</li>
             </AnchorLink>
             <AnchorLink offset="200" href="#adventures">
-              <li>Fun Lands</li>
+              <li className="lands-link">Fun Lands</li>
             </AnchorLink>
             <AnchorLink offset="200" href="#team">
               <li>Team</li>

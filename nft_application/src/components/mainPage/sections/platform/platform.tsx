@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import islandf from "../../../../assets/main/island_features.webp";
-import profile_icon from "../../../../assets/main/profile-logo.webp";
-import shield_icon from "../../../../assets/main/shield-logo.webp";
-import chat_icon from "../../../../assets/main/chat-logo.webp";
-import like_icon from "../../../../assets/main/like-logo.webp";
-import check_icon from "../../../../assets/main/check-logo.webp";
+import profile_icon from "../../../../assets/main/logo1.png";
+import shield_icon from "../../../../assets/main/logo2.png";
+import chat_icon from "../../../../assets/main/logo3.png";
+import like_icon from "../../../../assets/main/logo4.png";
+import check_icon from "../../../../assets/main/logo5.png";
 import bright_casual_sky from "../../../../assets/main/right-down-bright.webp";
 
 import "./platform.sass";

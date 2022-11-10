@@ -19,11 +19,23 @@ export function Roadmap() {
       <h1>Roadmap</h1>
 
       <div className="container">
-        <details>
+        <details open={true}>
           <summary>
             <div className="summary">
               {" "}
-              <img src={stage_logo} alt="logo" />
+              <motion.img
+                animate={{ rotate: 360 }}
+                transition={{
+                  ease: "linear",
+                  duration: 3,
+
+                  repeat: Infinity,
+                  type: "tween",
+                }}
+                src={token_logo}
+                alt="logo"
+                className="active"
+              />
               <div>
                 <h3>Stage 0</h3>
                 <span>(August 2022)</span>
@@ -46,23 +58,12 @@ export function Roadmap() {
             <li>Gotchies and Fun Lands NFTs contracts design</li>
           </motion.ul>
         </details>
-        <details open={true}>
+
+        <details>
           <summary>
             <div className="summary">
               {" "}
-              <motion.img
-                animate={{ rotate: 360 }}
-                transition={{
-                  ease: "linear",
-                  duration: 3,
-
-                  repeat: Infinity,
-                  type: "tween",
-                }}
-                src={token_logo}
-                alt="logo"
-                className="active"
-              />
+              <img src={stage_logoG} alt="logo" />
               <div>
                 <h3>Stage 1</h3>
                 <span>(November 2022)</span>
@@ -84,6 +85,7 @@ export function Roadmap() {
             <li>Game Alpha release</li>
           </motion.ul>
         </details>
+
         <details>
           <summary>
             <div className="summary">

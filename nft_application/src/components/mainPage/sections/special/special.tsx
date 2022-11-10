@@ -49,7 +49,7 @@ export function Special() {
             </video>
             <div className="description">
               <h3>
-                Branded Gotchie special
+                Branded Gotchi special
                 <br />
               </h3>
             </div>
