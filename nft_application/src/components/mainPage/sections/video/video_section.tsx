@@ -48,7 +48,7 @@ export function VideoSection() {
             <iframe
               width={"100%"}
               height={"100%"}
-              src="https://www.youtube.com/embed/m8paxpUrfPg"
+              src="https://www.youtube.com/embed/R66w-j2SmVQ"
               title="YouTube video player"
               frameBorder={0}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
