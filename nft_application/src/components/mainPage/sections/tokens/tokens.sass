@@ -70,7 +70,8 @@ $maxWidth: 1280
                 padding-left: 5%
                 z-index: 6
                 @media  (max-width: 500px)
-                    width: 80%
+                    width: 90%
+                    padding-left: 0%
 
                 a
                     text-decoration: none
@@ -86,9 +87,17 @@ $maxWidth: 1280
 
 
                 .address
-                    overflow: hidden
-                    text-overflow: ellipsis
-                    white-space: nowrap
+                    margin-bottom: 0
+                    span
+                        @media screen and ( max-width: 500px )
+                            @include adaptiv-font(20, 12)
+                        cursor: pointer
+
+                .copy
+                    @include adaptiv-font(15, 12)
+                    margin: 0
+                    cursor: pointer
+         
 
                 .h3:hover
                     white-space: normal

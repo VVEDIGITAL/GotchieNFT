@@ -1,7 +1,19 @@
+import { useState } from "react";
 import token_logo from "../../../../assets/main/token-logo.webp";
 import "./tokens.sass";
 
 export function Tokens() {
+  const [isCopied, setCopied] = useState(false);
+
+  const copyText = () => {
+    navigator.clipboard.writeText("0x3902547fD2Ba8f0C74532B08fA7A929a73cEdf0B");
+    setCopied(true);
+
+    setTimeout(() => {
+      setCopied(false);
+    }, 3000);
+  };
+
   return (
     <section id="tokens" className="tokens">
       <div className="container">
@@ -34,7 +46,13 @@ export function Tokens() {
 
             <h3 className="address">
               Contract address: <br />{" "}
-              <span>0xc234423fg2fhg423fh2442h3f4fg2234f243gfg</span>
+              <span onClick={copyText}>
+                0x3902547fD2Ba8f0C74532B08fA7A929a73cEdf0B
+              </span>
+            </h3>
+
+            <h3 className="copy">
+              {isCopied ? "Copied" : <a onClick={copyText}> Click to copy </a>}
             </h3>
 
             <div className="info-web">
