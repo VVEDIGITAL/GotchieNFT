@@ -6,14 +6,13 @@ interface GotchieCardI {
   img: any;
   title: string;
   rarety: string;
-  name: string;
   supply: string;
   market_url: string;
 }
 
 export const Gotchie_card = forwardRef(
   (
-    { img, title, rarety, name, supply, market_url }: GotchieCardI,
+    { img, title, rarety, supply, market_url }: GotchieCardI,
     ref: Ref<HTMLDivElement>
   ) => {
     return (
@@ -27,9 +26,6 @@ export const Gotchie_card = forwardRef(
           <div className="first_line">
             <span className="title">{title}</span>
             <button className={rarety}>{rarety}</button>
-          </div>
-          <div className="name">
-            <span className="title">{name}</span>
           </div>
           <div className="second_line">
             <span className="supply">{supply}</span>

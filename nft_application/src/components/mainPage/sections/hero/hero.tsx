@@ -40,6 +40,11 @@ export const Hero: FunctionComponent = () => {
     setWindowHeight(window.innerHeight);
   };
 
+  // useEffect(() => {
+  //   new Image().src = dragon_video_mov; // Preload
+  //   new Image().src = dragon_video; // Preload
+  // }, []);
+
   useEffect(() => {
     resizeWindow();
     window.addEventListener("resize", resizeWindow);
@@ -243,9 +248,9 @@ export const Hero: FunctionComponent = () => {
             {/* <br />{" "} */}
           </h2>
 
-          <a href="https://cryptogotchies.gitbook.io/whitepaper/">
+          {/* <a href="https://cryptogotchies.gitbook.io/whitepaper/">
             <Hero_button title="LEARN MORE" />
-          </a>
+          </a> */}
         </motion.div>
       </div>
     </section>

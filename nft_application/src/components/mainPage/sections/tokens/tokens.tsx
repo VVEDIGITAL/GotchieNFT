@@ -17,8 +17,7 @@ export function Tokens() {
   return (
     <section id="tokens" className="tokens">
       <div className="container">
-        <h1>Tokens</h1>
-        <h2>$GOTCHI Token</h2>
+        <h1>$GOTCHI Token</h1>
         <h3>
           $GOTCHI is a BEP20 main in-game token which is used for NFT minting,
           buying additional items, levelling up and buying Fun Lands. You earn

@@ -8,7 +8,7 @@ export function Pvp() {
   return (
     <section className="pvp">
       <div className="container">
-        <h1>PVP Coming This Winter</h1>
+        <h1>PVP Mode Coming Soon</h1>
         <img src={pvp} alt="pvp await img" className="bg" />
         <motion.img
           animate={{ y: "-7%" }}

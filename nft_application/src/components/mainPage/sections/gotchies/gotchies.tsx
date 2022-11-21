@@ -84,11 +84,10 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_girl}
-            title="Gotcha Girl"
+            title="Olivia"
             supply="Child: 50"
             rarety="free"
             market_url="/"
-            name="Olivia"
           />
 
           <MGotchie_card
@@ -100,11 +99,10 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_boy2}
-            title="Gotcha Boy"
+            title="Andrew"
             supply="Teen: 100"
             rarety="common"
             market_url="/"
-            name="Andrew"
           />
 
           <MGotchie_card
@@ -116,11 +114,10 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_boy}
-            title="Trendy Gotch"
+            title="William"
             supply="Adult: 10"
             rarety="uncommon"
             market_url="/"
-            name="William"
           />
         </div>
         <div className="second_cards">
@@ -133,11 +130,10 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_boy1}
-            title="Beachy gotch"
+            title="Stewart"
             supply="Child: 70"
             rarety="rare"
             market_url="/"
-            name="Stewart"
           />
 
           <MGotchie_card
@@ -149,11 +145,10 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_dragon}
-            title="Gotcha Dragon"
+            title="Ava"
             supply="Baby: 5"
             rarety="legendary"
             market_url="/"
-            name="Ava"
           />
         </div>
         <Slider />
