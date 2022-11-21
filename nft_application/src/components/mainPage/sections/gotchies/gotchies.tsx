@@ -86,8 +86,9 @@ export function Gotchies() {
             img={g_girl}
             title="Gotcha Girl"
             supply="Child: 50"
-            rarety="rare"
+            rarety="free"
             market_url="/"
+            name="Olivia"
           />
 
           <MGotchie_card
@@ -103,6 +104,7 @@ export function Gotchies() {
             supply="Teen: 100"
             rarety="common"
             market_url="/"
+            name="Andrew"
           />
 
           <MGotchie_card
@@ -116,8 +118,9 @@ export function Gotchies() {
             img={g_boy}
             title="Trendy Gotch"
             supply="Adult: 10"
-            rarety="epic"
+            rarety="uncommon"
             market_url="/"
+            name="William"
           />
         </div>
         <div className="second_cards">
@@ -132,8 +135,9 @@ export function Gotchies() {
             img={g_boy1}
             title="Beachy gotch"
             supply="Child: 70"
-            rarety="uncommon"
+            rarety="rare"
             market_url="/"
+            name="Stewart"
           />
 
           <MGotchie_card
@@ -149,6 +153,7 @@ export function Gotchies() {
             supply="Baby: 5"
             rarety="legendary"
             market_url="/"
+            name="Ava"
           />
         </div>
         <Slider />

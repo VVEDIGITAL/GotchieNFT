@@ -8,26 +8,124 @@ import shark_bright_sky from "../../assets/main/left-bright-sky.webp";
 import bright_casual_sky from "../../assets/main/right-down-bright.webp";
 import change_island from "../../assets/mint/island_change.webm";
 import change_island_mov from "../../assets/mint/change_islands2-1.mov";
-import { useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Sidebar } from "../../components/mint/sidebar/sidebar";
+import {
+  contractAddress,
+  contractAbi,
+  network,
+} from "../../connection/constants";
+import { metaMaskConnector } from "../../connection/metamask";
+import { useWeb3React } from "@web3-react/core";
+import { BigNumber, providers, Contract } from "ethers";
+
+const isActiveButton = (count: number, max: number) => {
+  return count <= max;
+};
+
+const fetchMax = async (contract: Contract, account: string) => {
+  let userNft;
+  let maxNft;
+  try {
+    userNft = await contract?.walletOfOwner(account);
+    maxNft = await contract?.maxMintPerWallet();
+
+    userNft = userNft && userNft.length.toString();
+    maxNft = maxNft && maxNft.toString();
+
+    return maxNft - userNft;
+  } catch (error) {
+    console.log(error);
+  }
+  return 0;
+};
+
+const getContract = (provider: providers.Web3Provider, account: string) => {
+  const contract = new Contract(
+    contractAddress,
+    contractAbi,
+    provider?.getSigner(account)
+  );
+  return contract;
+};
+
+const useConnectButton = (): [string, () => void] => {
+  const { account, chainId, provider } = useWeb3React();
+
+  const callback = () => {};
+
+  const connect = () => {
+    try {
+      metaMaskConnector.activate(network.dec);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const switchCallback = useCallback(() => {
+    provider?.send("wallet_switchEthereumChain", [
+      {
+        chainId: network.hex,
+      },
+    ]);
+  }, [provider]);
+
+  if (account && chainId === network.dec) {
+    return [account?.slice(0, 4) + "..." + account?.slice(-4), callback];
+  }
+  if (account) {
+    return ["Switch network", switchCallback];
+  }
+  return ["Connect With Metamask", connect];
+};
+
+const heroH1variants = {
+  visible: { opacity: 1, scale: 1, y: 0 },
+
+  hidden: {
+    opacity: 0,
+    scale: 0.85,
+    y: -50,
+  },
+};
 
 export function Mint() {
-  const [active, setActive] = useState("");
+  const [label, buttonClick] = useConnectButton();
+  const { account, isActive, provider, chainId } = useWeb3React();
+  const [maxCount, setMaxCount] = useState(0);
 
-  const handleClick = (number: string) => {
-    setActive(number);
-  };
+  const contract = useMemo(() => {
+    if (isActive && account && provider) {
+      return getContract(provider, account);
+    }
+  }, [isActive, provider, account]);
 
-  const heroH1variants = {
-    visible: { opacity: 1, scale: 1, y: 0 },
-
-    hidden: {
-      opacity: 0,
-      scale: 0.85,
-      y: -50,
+  const handleMintCallback = useCallback(
+    async (count: string) => {
+      contract?.cost().then((cost: BigNumber) => {
+        return contract?.mint(account, BigNumber.from(count), {
+          value: cost.mul(BigNumber.from(count)),
+        });
+      });
     },
-  };
+    [contract, account]
+  );
+
+  useEffect(() => {
+    const t = setInterval(() => {
+      if (isActive && contract && account && chainId === network.dec) {
+        fetchMax(contract, account).then((max) => {
+          setMaxCount(max);
+        });
+        return;
+      }
+      setMaxCount(0);
+    }, 1000);
+    return () => {
+      clearInterval(t);
+    };
+  }, [contract, account, isActive, chainId]);
 
   return (
     <>
@@ -51,26 +149,29 @@ export function Mint() {
             >
               <img src={mini_logo} alt="mini-logo" className="top-logo" />
               <h1>Mint your land NFT (Game access)</h1>
-              <motion.button
-                initial={{
-                  opacity: 0.6,
-                }}
-                whileHover={{
-                  scale: 1.2,
-                  transition: {
-                    duration: 1,
-                  },
-                }}
-                whileTap={{
-                  scale: 0.9,
-                }}
-                whileInView={{
-                  opacity: 1,
-                }}
-                className="connect"
-              >
-                Connect With Metamask
-              </motion.button>
+              {
+                <motion.button
+                  onClick={buttonClick}
+                  initial={{
+                    opacity: 0.6,
+                  }}
+                  whileHover={{
+                    scale: 1.2,
+                    transition: {
+                      duration: 1,
+                    },
+                  }}
+                  whileTap={{
+                    scale: 0.9,
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                  }}
+                  className="connect"
+                >
+                  {label}
+                </motion.button>
+              }
             </motion.div>
             <div className="content">
               <div className="image">
@@ -87,32 +188,44 @@ export function Mint() {
                 <h3>Select how many lands you want to mint</h3>
                 <div className="buttons">
                   <button
-                    className={active == "1" ? "active" : "inactive"}
-                    onClick={() => handleClick("1")}
+                    className={
+                      isActiveButton(1, maxCount) ? "active" : "inactive"
+                    }
+                    disabled={!isActiveButton(1, maxCount)}
+                    onClick={() => handleMintCallback("1")}
                   >
                     <img src={mini_logo} alt="img-logo" />
                     One land
                     <span>(0.3 BNB)</span>
                   </button>
                   <button
-                    className={active == "2" ? "active" : "inactive"}
-                    onClick={() => handleClick("2")}
+                    className={
+                      isActiveButton(2, maxCount) ? "active" : "inactive"
+                    }
+                    disabled={!isActiveButton(2, maxCount)}
+                    onClick={() => handleMintCallback("2")}
                   >
                     <img src={mini_logo} alt="img-logo" />
                     Two lands
                     <span>(0.6 BNB)</span>
                   </button>
                   <button
-                    className={active == "3" ? "active" : "inactive"}
-                    onClick={() => handleClick("3")}
+                    className={
+                      isActiveButton(3, maxCount) ? "active" : "inactive"
+                    }
+                    disabled={!isActiveButton(3, maxCount)}
+                    onClick={() => handleMintCallback("3")}
                   >
                     <img src={mini_logo} alt="img-logo" />
                     Three lands
                     <span>(0.9 BNB)</span>
                   </button>
                   <button
-                    className={active == "4" ? "active" : "inactive"}
-                    onClick={() => handleClick("4")}
+                    className={
+                      isActiveButton(4, maxCount) ? "active" : "inactive"
+                    }
+                    disabled={!isActiveButton(4, maxCount)}
+                    onClick={() => handleMintCallback("4")}
                   >
                     <img src={mini_logo} alt="img-logo" />
                     Four lands
@@ -123,7 +236,6 @@ export function Mint() {
                   <a href="https://cryptogotchies.gitbook.io/whitepaper/game-elements/fun-lands">
                     Learn about Fun Lands
                   </a>
-
                   <a href="https://cryptogotchies.gitbook.io/whitepaper/how-to-mint">
                     How to mint
                   </a>

@@ -11,7 +11,7 @@ $maxWidth: 1280
     background-color: rgba(0, 0, 0, 0.24)
     border-radius: 15px
     margin-top: 40px
-    width: 20%
+    width: 22%
     display: flex
     flex-direction: column
     transition: box-shadow 1s 
@@ -21,9 +21,10 @@ $maxWidth: 1280
     .gotchie-img
         width: 100%
         position: relative
+        
         img, video
             width: 100%
-
+            border-radius: 3px
             object-fit: cover
             object-position: center
         
@@ -50,6 +51,8 @@ $maxWidth: 1280
                 font-weight: bolder
                 text-align: left
                 color: #fff
+                @media screen and ( min-width: 1441px )
+                    font-size: 21px                    
 
             button
                 text-align: center
@@ -65,6 +68,8 @@ $maxWidth: 1280
                 font-weight: bolder
                 color: #fffeff
                 margin-right: 10px
+                @media screen and ( min-width: 1441px )
+                    font-size: 16.49px   
 
 
             .common
@@ -76,6 +81,9 @@ $maxWidth: 1280
             .uncommon
                 background-image: linear-gradient(to right , #f1c11a, #8e0dbe)
                 @include adaptiv-font(16, 12)
+                @media screen and ( min-width: 1441px )
+                    font-size: 16.49px  
+                
 
             .epic
                  background-image: linear-gradient(to right, #f11aad, #8e0dbe)
@@ -83,11 +91,13 @@ $maxWidth: 1280
             .legendary
                 background-image: linear-gradient(to right, #f18e1a, #be0d2b)
                 @include adaptiv-font(16, 12)
+                @media screen and ( min-width: 1441px )
+                    font-size: 16.49px  
 
 
-        .second_line
+        .second_line, .name
 
-            margin-top: 8px
+            margin-top: 1%
             display: flex
             justify-content: space-between
             align-items: center
@@ -110,6 +120,9 @@ $maxWidth: 1280
                 text-align: left
                 color: #d8a1ff
                 text-decoration: none
+        
+        .name 
+            margin: 0
 
 .gotchie_card:hover
     box-shadow: 0 0 13px 15px rgba(255, 255, 255, 0.31)

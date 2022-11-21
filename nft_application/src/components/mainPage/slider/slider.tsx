@@ -38,8 +38,9 @@ export const Slider: FunctionComponent = () => {
                 img={g_girl}
                 title="Gotcha Girl"
                 supply="Child: 50"
-                rarety="rare"
+                rarety="free"
                 market_url="/"
+                name="Olivia"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -49,6 +50,7 @@ export const Slider: FunctionComponent = () => {
                 supply="Teen: 100"
                 rarety="common"
                 market_url="/"
+                name="Andrew"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -56,8 +58,9 @@ export const Slider: FunctionComponent = () => {
                 img={g_boy}
                 title="Trendy Gotch"
                 supply="Adult: 10"
-                rarety="epic"
+                rarety="uncommon"
                 market_url="/"
+                name="William"
               />
             </SwiperSlide>
 
@@ -66,8 +69,9 @@ export const Slider: FunctionComponent = () => {
                 img={g_boy1}
                 title="Beachy gotch"
                 supply="Child: 70"
-                rarety="uncommon"
+                rarety="rare"
                 market_url="/"
+                name="Stewart"
               />
             </SwiperSlide>
 
@@ -78,6 +82,7 @@ export const Slider: FunctionComponent = () => {
                 supply="Baby: 5"
                 rarety="legendary"
                 market_url="/"
+                name="Ava"
               />
             </SwiperSlide>
           </div>
