@@ -14,11 +14,11 @@ export function Footer() {
           <div className="social">
             <h3>Join Us</h3>
             <div className="first">
-              <a className="telegram">
+              <a href="https://t.me/cryptogotchies_chat" className="telegram">
                 <img src={telegram} alt="tg" />
               </a>
 
-              <a className="twitter">
+              <a href="https://twitter.com/CryptoGotchies" className="twitter">
                 <img src={twitter} alt="twitter" />
               </a>
 
@@ -28,7 +28,7 @@ export function Footer() {
 
               <a
                 className="youtube"
-                href="https://www.youtube.com/channel/UCQ5S64qkvmWB0BKYhbp9jIg/featured"
+                href="https://www.youtube.com/@cryptogotchies"
               >
                 <img src={youtube} alt="discord" />
               </a>
