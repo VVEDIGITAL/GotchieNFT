@@ -46,7 +46,7 @@ export function Tokens() {
             <h3 className="address">
               Contract address: <br />{" "}
               <span onClick={copyText}>
-                0x3902547fD2Ba8f0C74532B08fA7A929a73cEdf0B
+                0xEb19D1e8BCE5C4D6f4c78D984287b99aA9aEc0B6
               </span>
             </h3>
 
@@ -64,7 +64,7 @@ export function Tokens() {
                 </a>
               </div>
               <div className="sec">
-                <a>
+                <a href="https://bscscan.com/address/0xeb19d1e8bce5c4d6f4c78d984287b99aa9aec0b6">
                   <h3>Contract</h3>
                 </a>
                 <a>
