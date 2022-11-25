@@ -146,6 +146,7 @@ export const Hero: FunctionComponent = () => {
           autoPlay
           loop
           muted
+          playsInline
         >
           {" "}
           <source src={island2_mov} type='video/mp4; codecs="hvc1" ' />
@@ -163,6 +164,7 @@ export const Hero: FunctionComponent = () => {
           autoPlay
           loop
           muted
+          playsInline
         >
           <source src={island3_mov} type='video/mp4; codecs="hvc1" ' />
           <source src={island3} type="video/webm" />
@@ -178,18 +180,18 @@ export const Hero: FunctionComponent = () => {
           autoPlay
           loop
           muted
+          playsInline
         >
           {" "}
           <source src={island4_mov} type='video/mp4; codecs="hvc1" ' />
           <source src={island4} type="video/webm" />
         </motion.video>
       </div>
-      <LazyHydrate whenIdle>
-        <video playsInline autoPlay loop muted className="dragon-img">
-          <source src={dragon_video_mov} type='video/mp4; codecs="hvc1"' />
-          <source src={dragon_video} type="video/webm" />
-        </video>
-      </LazyHydrate>
+
+      <video playsInline autoPlay loop muted className="dragon-img">
+        <source src={dragon_video_mov} type='video/mp4; codecs="hvc1"' />
+        <source src={dragon_video} type="video/webm" />
+      </video>
 
       <div className="smokes">
         <img

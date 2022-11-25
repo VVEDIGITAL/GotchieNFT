@@ -137,6 +137,7 @@ export function Adventures() {
             loop
             autoPlay
             muted
+            playsInline
           >
             <source src={island1_mov} type='video/mp4; codecs="hvc1" ' />
             <source src={island1} type="video/webm" />
@@ -157,6 +158,7 @@ export function Adventures() {
             loop
             autoPlay
             muted
+            playsInline
           >
             {" "}
             <source src={island2_mov} type='video/mp4; codecs="hvc1" ' />
@@ -179,6 +181,7 @@ export function Adventures() {
             loop
             autoPlay
             muted
+            playsInline
           >
             <source src={island3_mov} type='video/mp4; codecs="hvc1" ' />
             <source src={island3} type="video/webm" />
@@ -199,6 +202,7 @@ export function Adventures() {
             loop
             autoPlay
             muted
+            playsInline
           >
             {" "}
             <source src={island4_mov} type='video/mp4; codecs="hvc1" ' />
