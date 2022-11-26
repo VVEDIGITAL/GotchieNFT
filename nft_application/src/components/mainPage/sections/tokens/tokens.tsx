@@ -32,6 +32,7 @@ export function Tokens() {
             <h3>
               Token Name: <span>Crypto Gotchies</span>
             </h3>
+
             <h3>
               Token Ticker: <span>$GOTCHI</span>
             </h3>
@@ -39,6 +40,7 @@ export function Tokens() {
             <h3>
               Decimals: <span>9</span>
             </h3>
+
             <h3>
               Buy/Sell tax: <span>0%</span>
             </h3>
@@ -59,7 +61,7 @@ export function Tokens() {
                 <a href="https://cryptogotchies.gitbook.io/whitepaper/tokenomics">
                   <h3>Learn more</h3>
                 </a>
-                <a>
+                <a href="https://github.com/cyberscope-io/audits/blob/main/gotchi/audit.pdf">
                   <h3>Audits</h3>
                 </a>
               </div>
