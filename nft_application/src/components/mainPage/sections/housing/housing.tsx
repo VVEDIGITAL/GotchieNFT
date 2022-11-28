@@ -18,14 +18,13 @@ export function Housing() {
   return (
     <section id="housing" className="housing">
       <div className="container">
-        <h1>Housing</h1>
+        <h1>Gotchi Space</h1>
         <h3>
-          Now your Gotchies can have a house! And you can furnish it yourself!
-          The furniture has the functionality of additional bonuses, as well as
-          unique properties for the economy of the game. Players will be able to
-          buy items that have the functionality of production of consumables, as
-          well as sell services to other players (buffs, paid crafting) or even
-          host a poker tournament.
+          All Gotchies have their own Space! You can customize it using
+          furniture. The furniture has the added functionality of providing
+          passive bonuses. The players can reduce the recovery time of each
+          attribute of the chosen Gotchi. As well as some production
+          capabilities of consumable items.
         </h3>
 
         <div className="rooms">
