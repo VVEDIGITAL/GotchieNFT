@@ -78,7 +78,7 @@ export function Team() {
                 <div className="shadow"></div>
               </div>
               <div className="text">
-                <span>Danny</span>
+                <span>Ivano</span>
                 <h4>CEO</h4>
               </div>
             </div>
