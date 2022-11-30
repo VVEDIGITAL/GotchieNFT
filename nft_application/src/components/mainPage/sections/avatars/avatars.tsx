@@ -225,7 +225,6 @@ export function Avatars() {
             whileInView={{
               opacity: 1,
             }}
-            onClick={openModal}
           >
             Mint your Gotchi
           </motion.button>
