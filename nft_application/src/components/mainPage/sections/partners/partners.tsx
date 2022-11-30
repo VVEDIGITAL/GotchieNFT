@@ -1,6 +1,6 @@
 import solid_proof from "../../../../assets/main/SolidProof.png";
-import pink_sale from "../../../../assets/main/PinkSale.png";
-import coin_scope from "../../../../assets/main/CoinScope.png";
+import pink_sale from "../../../../assets/main/PinkSale.webp";
+import coin_scope from "../../../../assets/main/CoinScope.webp";
 
 import "./partners.sass";
 
