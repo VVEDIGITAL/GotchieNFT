@@ -2,15 +2,31 @@ import "./header.sass";
 import stage_logo from "../../assets/main/stageLogo.webp";
 import { Sidebar } from "../mainPage/sidebar/sidebar";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { useState } from "react";
+import { ErrorModal } from "../errorModal/errorModal";
 
 const calcOffset = (perc: number) => {
   return (window.outerHeight * perc) / 100;
 };
 
 export function Header() {
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
   return (
     <>
       <Sidebar pageWrapId={"full_header_container"} outerContainerId={"root"} />
+      <ErrorModal
+        isOpen={modalIsOpen}
+        onClose={closeModal}
+        body={<p>Oups, Coming Soon!</p>}
+      />
       <header>
         <div className="main_container">
           <div className="header_logo">
@@ -39,7 +55,7 @@ export function Header() {
               <li>Partners</li>
             </AnchorLink>{" "}
           </ul>
-          <button>D.APP</button>
+          <button onClick={openModal}>D.APP</button>
         </div>
       </header>
     </>

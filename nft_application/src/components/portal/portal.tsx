@@ -10,7 +10,7 @@ class Portal extends Component<{ children: React.ReactNode }> {
   }
 
   public componentWillUnmount() {
-    document.body.appendChild(this.el);
+    document.body.removeChild(this.el);
   }
 
   public render() {

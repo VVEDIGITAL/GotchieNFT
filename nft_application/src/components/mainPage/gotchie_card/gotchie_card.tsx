@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { forwardRef, Ref, useEffect, useRef } from "react";
+import React, { forwardRef, Ref, useEffect, useRef, useState } from "react";
 import "./gotchie_card.sass";
 
 interface GotchieCardI {
@@ -15,6 +15,15 @@ export const Gotchie_card = forwardRef(
     { img, title, rarety, supply, market_url }: GotchieCardI,
     ref: Ref<HTMLDivElement>
   ) => {
+    const [isClicked, setClicked] = useState(false);
+
+    const clickText = () => {
+      setClicked(true);
+
+      setTimeout(() => {
+        setClicked(false);
+      }, 3000);
+    };
     return (
       <div ref={ref} className="gotchie_card">
         <div className="gotchie-img">
@@ -29,7 +38,14 @@ export const Gotchie_card = forwardRef(
           </div>
           <div className="second_line">
             <span className="supply">{supply}</span>
-            <a href={market_url}>Buy on platform {">"}</a>
+            {/* <a href={market_url}>Buy on platform {">"}</a>{" "} */}
+            {isClicked ? (
+              <a>
+                {"<"} Coming Soon {">"}
+              </a>
+            ) : (
+              <a onClick={clickText}>Buy on platform {">"}</a>
+            )}
           </div>
         </div>
       </div>

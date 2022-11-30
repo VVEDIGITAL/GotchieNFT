@@ -5,6 +5,7 @@ import Portal from "../portal/portal";
 import "./modal.sass";
 
 export interface ModalProps {
+  overlay_style?: string;
   window_style: string;
   isOpen: boolean;
   onClose: () => void;
@@ -12,6 +13,7 @@ export interface ModalProps {
 }
 
 export const Modal: FunctionComponent<ModalProps> = ({
+  overlay_style,
   window_style,
   isOpen,
   onClose,
@@ -30,7 +32,7 @@ export const Modal: FunctionComponent<ModalProps> = ({
     <>
       {isOpen && (
         <Portal>
-          <div onClick={onClose} className="modalOverlay">
+          <div onClick={onClose} className={"modalOverlay " + overlay_style}>
             <motion.div
               initial={"hidden"}
               style={{ y: "50%", x: "-50%" }}

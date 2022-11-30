@@ -1,4 +1,6 @@
-import partners_mocha from "../../../../assets/main/partners.webp";
+import solid_proof from "../../../../assets/main/SolidProof.png";
+import pink_sale from "../../../../assets/main/PinkSale.png";
+import coin_scope from "../../../../assets/main/CoinScope.png";
 
 import "./partners.sass";
 
@@ -7,7 +9,17 @@ export function Partners() {
     <section id="partners" className="partners">
       <div className="container">
         <h1>Press & Partners</h1>
-        <img src={partners_mocha} alt="partners mocha" />
+        <div className="partners-img">
+          <a href="https://www.pinksale.finance/">
+            <img src={pink_sale} alt="partners mocha" />
+          </a>
+          <a href="https://www.coinscope.co">
+            <img src={coin_scope} alt="partners mocha" />
+          </a>
+          <a href="https://solidproof.io/">
+            <img src={solid_proof} alt="partners mocha" />
+          </a>
+        </div>
       </div>
     </section>
   );

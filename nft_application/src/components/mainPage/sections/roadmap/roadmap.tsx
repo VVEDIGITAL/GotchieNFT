@@ -38,7 +38,7 @@ export function Roadmap() {
               />
               <div>
                 <h3>Stage 0</h3>
-                <span>(August 2022)</span>
+                <span>(November 2022)</span>
               </div>
             </div>
           </summary>
@@ -66,7 +66,7 @@ export function Roadmap() {
               <img src={stage_logoG} alt="logo" />
               <div>
                 <h3>Stage 1</h3>
-                <span>(November 2022)</span>
+                <span>(December 2022)</span>
               </div>
             </div>
           </summary>
@@ -93,7 +93,7 @@ export function Roadmap() {
               <img src={stage_logoG} alt="logo" />
               <div>
                 <h3>Stage 2</h3>
-                <span>(December 2022)</span>
+                <span>(January 2023)</span>
               </div>
             </div>
           </summary>
@@ -118,7 +118,7 @@ export function Roadmap() {
               <img src={stage_logoG} alt="logo" />
               <div>
                 <h3>Stage 3</h3>
-                <span>(January 2022)</span>
+                <span>(February 2023)</span>
               </div>
             </div>
           </summary>
@@ -145,7 +145,7 @@ export function Roadmap() {
               <img src={stage_logoG} alt="logo" />
               <div>
                 <h3>Stage 4</h3>
-                <span>(March 2022)</span>
+                <span>(March 2023)</span>
               </div>
             </div>
           </summary>

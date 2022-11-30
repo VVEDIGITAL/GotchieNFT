@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import stage_logo from "../../../assets/main/stageLogo.webp";
 import burger_logo from "../../../assets/main/burger_logo.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import { ErrorModal } from "../../errorModal/errorModal";
 
 interface SidebarProps {
   pageWrapId: string | undefined;
@@ -13,6 +14,15 @@ interface SidebarProps {
 
 export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
   const [isOpen, setIsOpen] = useState(false);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  function openModal() {
+    setModalIsOpen(true);
+  }
+
+  function closeModal() {
+    setModalIsOpen(false);
+  }
   return (
     <Menu
       right
@@ -32,6 +42,11 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
       //   pageWrapId={String(pageWrapId)}
       //   outerContainerId={String(outerContainerId)}
     >
+      <ErrorModal
+        isOpen={modalIsOpen}
+        onClose={closeModal}
+        body={<p>Oups, Coming Soon!</p>}
+      />
       <div className="header-logo">
         <img src={stage_logo} alt="header logo" />
       </div>
@@ -114,6 +129,10 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
       >
         Partners
       </AnchorLink>
+
+      <button className="app-button" onClick={openModal}>
+        D.APP
+      </button>
     </Menu>
   );
 };

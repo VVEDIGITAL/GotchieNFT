@@ -69,7 +69,7 @@ export function Tokens() {
                 <a href="https://bscscan.com/address/0xeb19d1e8bce5c4d6f4c78d984287b99aa9aec0b6">
                   <h3>Contract</h3>
                 </a>
-                <a>
+                <a href="https://poocoin.app/tokens/0xeb19d1e8bce5c4d6f4c78d984287b99aa9aec0b6">
                   <h3>Chart</h3>
                 </a>
               </div>

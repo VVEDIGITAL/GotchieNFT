@@ -8,8 +8,19 @@ import avatars_4 from "../../../../assets/main/avatars_4.webp";
 import avatars_5 from "../../../../assets/main/avatars_5.webp";
 
 import "./avatars.sass";
+import { ErrorModal } from "../../../errorModal/errorModal";
 
 export function Avatars() {
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   const [card1, setcard1] = useState("static");
   const [card2, setcard2] = useState("static");
   const [card3, setcard3] = useState("static");
@@ -31,6 +42,12 @@ export function Avatars() {
 
   return (
     <section id="avatars" className="avatars">
+      <ErrorModal
+        isOpen={modalIsOpen}
+        onClose={closeModal}
+        body={<p>Oups, Coming Soon!</p>}
+      />
+
       <motion.img
         initial={"hidden"}
         variants={sky_variants}
@@ -208,6 +225,7 @@ export function Avatars() {
             whileInView={{
               opacity: 1,
             }}
+            onClick={openModal}
           >
             Mint your Gotchi
           </motion.button>

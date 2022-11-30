@@ -1,0 +1,29 @@
+
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize) 
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+
+
+.modalWindowError
+    min-height: 100px
+    height: fit-content
+    min-height: fit-content
+    width: 25%
+    max-width: 500px
+    padding: 6px 24px 6px 24px
+    p
+        font-family: Gepestev
+        @include adaptiv-font(20, 16)
+        font-weight: 600
+        text-align: center
+    
+    .modalHeader
+        display: none
+
+    @media screen and ( max-width: 500px )
+        width: 40%
+        
+.errorOverlay
+    background-color: rgba(53, 53, 53, 0.35)

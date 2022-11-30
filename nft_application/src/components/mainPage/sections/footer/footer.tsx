@@ -45,14 +45,14 @@ export function Footer() {
           <div className="invest">
             <h3>Invest</h3>
             <div className="links">
-              <a>
+              <a className="grey">
                 <h4>$GOTCHI Presale </h4>
               </a>
               <NavLink to={"/mint"}>
                 <h4>Mint Lands </h4>
               </NavLink>
 
-              <a>
+              <a className="grey">
                 <h4>NFT Market</h4>
               </a>
             </div>
@@ -61,13 +61,13 @@ export function Footer() {
           <div className="game">
             <h3>Game</h3>
             <div className="links">
-              <a>
+              <a className="grey">
                 <h4>Game World</h4>
               </a>
-              <a>
+              <a className="grey">
                 <h4>Leaderboard</h4>
               </a>
-              <a>
+              <a className="grey">
                 <h4>Achievements</h4>
               </a>
             </div>
@@ -79,10 +79,10 @@ export function Footer() {
               <a href="https://cryptogotchies.gitbook.io/whitepaper/">
                 <h4>Whitepaper</h4>
               </a>
-              <a>
+              <a href="https://github.com/cyberscope-io/audits/blob/main/gotchi/audit.pdf">
                 <h4>Audit</h4>
               </a>
-              <a>
+              <a href="https://github.com/solidproof/projects/blob/main/CRYPTO%20GOTCHIES/KYC_Certificate_CRYPTO_GOTCHIES.png">
                 <h4>KYC</h4>
               </a>
             </div>
