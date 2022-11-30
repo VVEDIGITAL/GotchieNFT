@@ -130,9 +130,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         Partners
       </AnchorLink>
 
-      <button className="app-button" onClick={openModal}>
-        D.APP
-      </button>
+      <button className="app-button">D.APP</button>
     </Menu>
   );
 };

@@ -63,9 +63,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         Home
       </NavLink>
 
-      <button className="app-button" onClick={openModal}>
-        D.APP
-      </button>
+      <button className="app-button">D.APP</button>
     </Menu>
   );
 };

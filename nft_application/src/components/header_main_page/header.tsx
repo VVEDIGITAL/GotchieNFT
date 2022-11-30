@@ -55,7 +55,7 @@ export function Header() {
               <li>Partners</li>
             </AnchorLink>{" "}
           </ul>
-          <button onClick={openModal}>D.APP</button>
+          <button>D.APP</button>
         </div>
       </header>
     </>
