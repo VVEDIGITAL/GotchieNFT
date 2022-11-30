@@ -45,7 +45,7 @@ export function Footer() {
           <div className="invest">
             <h3>Invest</h3>
             <div className="links">
-              <a className="grey">
+              <a href="https://www.pinksale.finance/launchpad/0x573Bf12635A3cD5312Ac1FA4FeaFBa80ce1A84bC?chain=BSC">
                 <h4>$GOTCHI Presale </h4>
               </a>
               <NavLink to={"/mint"}>
