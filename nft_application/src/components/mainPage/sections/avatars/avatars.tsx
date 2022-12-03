@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import bright_casual_sky from "../../../../assets/main/right-down-bright.webp";
 import avatars_1 from "../../../../assets/main/avatars_1.webp";
 import avatars_2 from "../../../../assets/main/avatars_2.webp";
@@ -20,6 +20,14 @@ export function Avatars() {
   function closeModal() {
     setIsOpen(false);
   }
+
+  useEffect(() => {
+    if (modalIsOpen === true) {
+      setTimeout(() => {
+        setIsOpen(false);
+      }, 1800);
+    }
+  }, [modalIsOpen]);
 
   const [card1, setcard1] = useState("static");
   const [card2, setcard2] = useState("static");
@@ -42,11 +50,7 @@ export function Avatars() {
 
   return (
     <section id="avatars" className="avatars">
-      <ErrorModal
-        isOpen={modalIsOpen}
-        onClose={closeModal}
-        body={<p>Oups, Coming Soon!</p>}
-      />
+      <ErrorModal isOpen={modalIsOpen} onClose={closeModal} body={<></>} />
 
       <motion.img
         initial={"hidden"}
@@ -210,6 +214,7 @@ export function Avatars() {
             Child, Teen and adult. Each stage has different experience to it
           </h3>
           <motion.button
+            onClick={openModal}
             initial={{
               opacity: 0.6,
             }}

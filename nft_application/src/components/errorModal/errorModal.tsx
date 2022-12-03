@@ -1,6 +1,8 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
 import Modal from "../modal/modal";
 import "./errorModal.sass";
+
+import coming from "../../assets/modal/coming-soon.png";
 
 export interface ModalProps {
   isOpen: boolean;
@@ -20,7 +22,11 @@ export const ErrorModal: FunctionComponent<ModalProps> = ({
         window_style="modalWindow modalWindowError"
         isOpen={isOpen}
         onClose={onClose}
-        body={body}
+        body={
+          <div>
+            <img src={coming} alt="coming img popup" />
+          </div>
+        }
       />
     </>
   );

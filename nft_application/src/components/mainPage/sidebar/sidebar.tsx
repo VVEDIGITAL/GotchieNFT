@@ -23,6 +23,15 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
   function closeModal() {
     setModalIsOpen(false);
   }
+
+  useEffect(() => {
+    if (modalIsOpen === true) {
+      setTimeout(() => {
+        setModalIsOpen(false);
+      }, 2500);
+    }
+  }, [modalIsOpen]);
+
   return (
     <Menu
       right
@@ -42,11 +51,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
       //   pageWrapId={String(pageWrapId)}
       //   outerContainerId={String(outerContainerId)}
     >
-      <ErrorModal
-        isOpen={modalIsOpen}
-        onClose={closeModal}
-        body={<p>Oups, Coming Soon!</p>}
-      />
+      <ErrorModal isOpen={modalIsOpen} onClose={closeModal} body={<></>} />
       <div className="header-logo">
         <img src={stage_logo} alt="header logo" />
       </div>
@@ -130,7 +135,9 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         Partners
       </AnchorLink>
 
-      <button className="app-button">D.APP</button>
+      <button onClick={openModal} className="app-button">
+        D.APP
+      </button>
     </Menu>
   );
 };

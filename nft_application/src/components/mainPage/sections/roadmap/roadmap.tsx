@@ -160,7 +160,6 @@ export function Roadmap() {
             <li>Gotchies Breeding </li>
             <li>New evolution stage </li>
             <li>$GOTCHI staking</li>
-            <li>Fun Lands sale #2</li>
             <li>$GOTCHI on other chains</li>
           </motion.ul>
         </details>

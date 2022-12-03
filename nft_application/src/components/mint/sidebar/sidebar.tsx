@@ -24,6 +24,15 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
   function closeModal() {
     setModalIsOpen(false);
   }
+
+  useEffect(() => {
+    if (modalIsOpen === true) {
+      setTimeout(() => {
+        setModalIsOpen(false);
+      }, 2500);
+    }
+  }, [modalIsOpen]);
+
   return (
     <Menu
       right
@@ -63,7 +72,15 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         Home
       </NavLink>
 
-      <button className="app-button">D.APP</button>
+      <button
+        onClick={() => {
+          openModal();
+          setIsOpen(false);
+        }}
+        className="app-button"
+      >
+        D.APP
+      </button>
     </Menu>
   );
 };

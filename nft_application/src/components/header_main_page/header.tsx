@@ -2,8 +2,9 @@ import "./header.sass";
 import stage_logo from "../../assets/main/stageLogo.webp";
 import { Sidebar } from "../mainPage/sidebar/sidebar";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ErrorModal } from "../errorModal/errorModal";
+import { NavLink } from "react-router-dom";
 
 const calcOffset = (perc: number) => {
   return (window.outerHeight * perc) / 100;
@@ -19,14 +20,19 @@ export function Header() {
   function closeModal() {
     setIsOpen(false);
   }
+
+  useEffect(() => {
+    if (modalIsOpen === true) {
+      setTimeout(() => {
+        setIsOpen(false);
+      }, 3500);
+    }
+  }, [modalIsOpen]);
+
   return (
     <>
       <Sidebar pageWrapId={"full_header_container"} outerContainerId={"root"} />
-      <ErrorModal
-        isOpen={modalIsOpen}
-        onClose={closeModal}
-        body={<p>Oups, Coming Soon!</p>}
-      />
+      <ErrorModal isOpen={modalIsOpen} onClose={closeModal} body={<></>} />
       <header>
         <div className="main_container">
           <div className="header_logo">
@@ -42,9 +48,18 @@ export function Header() {
             <AnchorLink offset="60" href="#features">
               <li>Features</li>
             </AnchorLink>
-            <AnchorLink offset="80" href="#adventures">
-              <li className="lands-link">Fun Lands</li>
-            </AnchorLink>
+            {/* <AnchorLink offset="80" href="#adventures">
+              <li className="lands-link">Mint Fun Lands</li>
+            </AnchorLink> */}
+            <NavLink
+              onClick={() => {
+                setIsOpen(false);
+              }}
+              className="menu-item"
+              to="/mint"
+            >
+              <li className="lands-link">Mint Fun Lands</li>
+            </NavLink>
             <AnchorLink offset="50" href="#team">
               <li>Team</li>
             </AnchorLink>
@@ -55,7 +70,7 @@ export function Header() {
               <li>Partners</li>
             </AnchorLink>{" "}
           </ul>
-          <button>D.APP</button>
+          <button onClick={openModal}>D.APP</button>
         </div>
       </header>
     </>
