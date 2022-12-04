@@ -1,0 +1,59 @@
+$maxWidth: 1280
+@mixin adaptiv-font($pcSize, $mobSize)
+    $addSize: $pcSize - $mobSize
+    $maxWidth: $maxWidth - 320
+    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}))
+
+    
+.island-card
+    margin-top: 6%
+    margin-right: 6%
+    @media screen and ( max-width: 768px )
+        margin-top: 5%
+        margin-right: 0
+        
+    img
+    .content, .attrs
+        display: flex
+        flex-direction: column
+        height: 100%
+        width: 30%
+        overflow: hidden
+        flex-wrap: wrap
+        justify-content: right
+        align-items: flex-end
+        @media screen and ( max-width: 768px )
+            align-items: center
+            width: 50%
+            // padding-left: 20%
+        
+
+        h3
+            text-align: right
+            margin: 0
+            
+            // white-space: nowrap
+            width: 50%
+            margin: 0px
+            font-family: Gepestev
+            @include adaptiv-font(16, 14)
+            font-weight: 100
+            color: darkorange
+            word-break: break-all
+            margin-bottom: 2%
+            span
+                
+                color: white
+                word-break: break-all
+            @media screen and ( max-width: 768px )
+                text-align: left
+                padding-right: 10%
+
+            @media screen and ( max-width: 500px )
+                width: 80%
+
+        .attrs
+            width: 100%
+            margin-top: 5%
+            @media screen and ( max-width: 768px )
+                margin-top: 0%
