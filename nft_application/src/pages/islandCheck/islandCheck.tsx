@@ -12,7 +12,7 @@ import change_island_mov from "../../assets/mint/change_islands2-1.mov";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Sidebar } from "../../components/mint/sidebar/sidebar";
-import { Island_info } from "../../components/islandCheckPage/islandInfo/islandInfo";
+import { IslandCard } from "../../components/islandCheckPage/islandInfo/islandCard";
 
 const heroH1variants = {
   visible: { opacity: 1, scale: 1, y: 0 },
@@ -130,8 +130,8 @@ export function IslandCheckPage() {
               } */}
             </motion.div>
             <div className="content">
-              <div className="image">
-                {!isFounded ? (
+              {!isFounded ? (
+                <div className="image">
                   <video autoPlay loop muted playsInline>
                     <source
                       src={change_island_mov}
@@ -139,15 +139,15 @@ export function IslandCheckPage() {
                     />
                     <source src={change_island} type="video/webm" />
                   </video>
-                ) : (
-                  <Island_info
-                    description={island?.description}
-                    image={island?.image}
-                    name={island?.name}
-                    attributes={island?.attributes}
-                  />
-                )}
-              </div>
+                </div>
+              ) : (
+                <IslandCard
+                  description={island?.description}
+                  image={island?.image}
+                  name={island?.name}
+                  attributes={island?.attributes}
+                />
+              )}
 
               <div className="select-container">
                 <h3>Type an island number</h3>

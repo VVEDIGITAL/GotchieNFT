@@ -6,14 +6,19 @@ $maxWidth: 1280
 
     
 .island-card
+    position: relative
+    width: 50%
+    float: right
     margin-top: 6%
     margin-right: 6%
+    width: 100%
+                
     @media screen and ( max-width: 768px )
         margin-top: 5%
         margin-right: 0
     @media screen and ( max-width: 500px )
         margin-top: 0%
-        
+
     img
     .content, .attrs
         display: flex
@@ -21,7 +26,7 @@ $maxWidth: 1280
         height: 100%
         width: 30%
         overflow: hidden
-        flex-wrap: wrap
+
         justify-content: right
         align-items: flex-end
         @media screen and ( max-width: 768px )

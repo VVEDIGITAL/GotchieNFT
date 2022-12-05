@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { forwardRef, Ref, useState } from "react";
-import "./islandInfo.sass";
+import "./islandCard.sass";
 
 export interface Attribute {
   trait_type: string;
@@ -14,7 +14,7 @@ export interface InformationI {
   attributes: Attribute[] | undefined;
 }
 
-export const Island_info = forwardRef(
+export const IslandCard = forwardRef(
   (
     { description, name, image, attributes }: InformationI,
     ref: Ref<HTMLDivElement>
@@ -49,4 +49,4 @@ export const Island_info = forwardRef(
   }
 );
 
-export const MGotchie_card = motion(Island_info);
+export const MGotchie_card = motion(IslandCard);
