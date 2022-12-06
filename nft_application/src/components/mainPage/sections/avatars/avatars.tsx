@@ -9,6 +9,7 @@ import avatars_5 from "../../../../assets/main/avatars_5.webp";
 
 import "./avatars.sass";
 import { ErrorModal } from "../../../errorModal/errorModal";
+import { Trans } from "@lingui/macro";
 
 export function Avatars() {
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -205,13 +206,18 @@ export function Avatars() {
           </div>
         </div>
         <div className="text">
-          <h2>Meet Gotchies</h2>
+          <h2>
+            <Trans>Meet Gotchies</Trans>
+          </h2>
           <h3>
-            Gotchies are digital pet NFTs which you'll need to take care of and
-            earn $GOTCHI rewards for it. Each Gotchi is unique! They come from
-            Eggs. Depending on rarity, each has different earning potential.
-            During the game you will go through 4 evolution stages such as Baby,
-            Child, Teen and adult. Each stage has different experience to it
+            <Trans>
+              Gotchies are digital pet NFTs which you'll need to take care of
+              and earn $GOTCHI rewards for it. Each Gotchi is unique! They come
+              from Eggs. Depending on rarity, each has different earning
+              potential. During the game you will go through 4 evolution stages
+              such as Baby, Child, Teen and adult. Each stage has different
+              experience to it
+            </Trans>
           </h3>
           <motion.button
             onClick={openModal}
@@ -231,7 +237,7 @@ export function Avatars() {
               opacity: 1,
             }}
           >
-            Mint your Gotchi
+            <Trans>Mint your Gotchi</Trans>
           </motion.button>
         </div>
       </div>

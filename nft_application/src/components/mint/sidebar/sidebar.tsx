@@ -6,6 +6,7 @@ import stage_logo from "../../../assets/main/stageLogo.webp";
 import burger_logo from "../../../assets/main/burger_logo.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { ErrorModal } from "../../errorModal/errorModal";
+import { Trans } from "@lingui/macro";
 
 interface SidebarProps {
   pageWrapId: string | undefined;
@@ -55,7 +56,11 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
       <ErrorModal
         isOpen={modalIsOpen}
         onClose={closeModal}
-        body={<p>Oups, Coming Soon!</p>}
+        body={
+          <p>
+            <Trans>Oups, Coming Soon!</Trans>
+          </p>
+        }
       />
 
       <div className="header-logo">
@@ -69,7 +74,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         className="menu-item"
         to="/"
       >
-        Home
+        <Trans>Home</Trans>
       </NavLink>
 
       <button
@@ -79,7 +84,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         }}
         className="app-button"
       >
-        D.APP
+        <Trans>D.APP</Trans>
       </button>
     </Menu>
   );

@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import member1 from "../../../../assets/main/1_1.png";
 import member2 from "../../../../assets/main/2_2.png";
 import member3 from "../../../../assets/main/3_3.png";
@@ -10,7 +11,9 @@ export function Team() {
   return (
     <section id="team" className="team">
       <div className="container">
-        <h1>Team</h1>
+        <h1>
+          <Trans>Team</Trans>
+        </h1>
         <div className="members">
           <div className="first-row">
             <div className="member">
@@ -20,7 +23,9 @@ export function Team() {
               </div>
               <div className="text">
                 <span>Julia</span>
-                <h4>3D designer</h4>
+                <h4>
+                  <Trans>3D designer</Trans>
+                </h4>
               </div>
             </div>
 
@@ -31,7 +36,9 @@ export function Team() {
               </div>
               <div className="text">
                 <span>Anthony</span>
-                <h4>Project manager </h4>
+                <h4>
+                  <Trans>Project manager</Trans>{" "}
+                </h4>
               </div>
             </div>
 
@@ -42,7 +49,9 @@ export function Team() {
               </div>
               <div className="text">
                 <span>Jay</span>
-                <h4>Web designer</h4>
+                <h4>
+                  <Trans>Web designer</Trans>
+                </h4>
               </div>
             </div>
           </div>
@@ -55,7 +64,9 @@ export function Team() {
               </div>
               <div className="text">
                 <span>Alex</span>
-                <h4>blockchain dev </h4>
+                <h4>
+                  <Trans>blockchain dev</Trans>{" "}
+                </h4>
               </div>
             </div>
           </div>
@@ -68,7 +79,9 @@ export function Team() {
               </div>
               <div className="text">
                 <span>Mark</span>
-                <h4>CMO</h4>
+                <h4>
+                  <Trans>CMO</Trans>
+                </h4>
               </div>
             </div>
 
@@ -79,7 +92,9 @@ export function Team() {
               </div>
               <div className="text">
                 <span>Ivano</span>
-                <h4>CEO</h4>
+                <h4>
+                  <Trans>CEO</Trans>
+                </h4>
               </div>
             </div>
           </div>

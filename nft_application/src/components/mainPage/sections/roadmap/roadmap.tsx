@@ -4,6 +4,7 @@ import token_logo from "../../../../assets/main/token-logo.webp";
 import stage_logoG from "../../../../assets/main/stageLogoG.png";
 
 import "./roadmap.sass";
+import { Trans } from "@lingui/macro";
 
 export function Roadmap() {
   const openVariants = {
@@ -16,7 +17,9 @@ export function Roadmap() {
 
   return (
     <section id="roadmap" className="roadmap">
-      <h1>Roadmap</h1>
+      <h1>
+        <Trans>Roadmap</Trans>
+      </h1>
 
       <div className="container">
         <details>
@@ -25,8 +28,12 @@ export function Roadmap() {
               {" "}
               <img src={stage_logo} alt="logo" />
               <div>
-                <h3>Stage 0</h3>
-                <span>(November 2022)</span>
+                <h3>
+                  <Trans>Stage 0</Trans>
+                </h3>
+                <span>
+                  <Trans>(November 2022)</Trans>
+                </span>
               </div>
             </div>
           </summary>
@@ -38,12 +45,24 @@ export function Roadmap() {
             }}
             variants={openVariants}
           >
-            <li>Game Concept </li>
-            <li>Whitepaper</li>
-            <li>Website launch</li>
-            <li>In-game wallet system </li>
-            <li>$GOTCHI token deploy</li>
-            <li>Gotchies and Fun Lands NFTs contracts design</li>
+            <li>
+              <Trans>Game Concept</Trans>{" "}
+            </li>
+            <li>
+              <Trans>Whitepaper</Trans>
+            </li>
+            <li>
+              <Trans>Website launch</Trans>
+            </li>
+            <li>
+              <Trans>In-game wallet system</Trans>{" "}
+            </li>
+            <li>
+              <Trans>$GOTCHI token deploy</Trans>
+            </li>
+            <li>
+              <Trans>Gotchies and Fun Lands NFTs contracts design</Trans>
+            </li>
           </motion.ul>
         </details>
 
@@ -65,8 +84,12 @@ export function Roadmap() {
                 className="active"
               />
               <div>
-                <h3>Stage 1</h3>
-                <span>(December 2022)</span>
+                <h3>
+                  <Trans>Stage 1</Trans>
+                </h3>
+                <span>
+                  <Trans>(December 2022)</Trans>
+                </span>
               </div>
             </div>
           </summary>
@@ -78,11 +101,21 @@ export function Roadmap() {
             }}
             variants={openVariants}
           >
-            <li>Pinksale presale </li>
-            <li>Fun Lands sale</li>
-            <li>Pancakeswap Launch </li>
-            <li>Game beta test </li>
-            <li>Game Alpha release</li>
+            <li>
+              <Trans>Pinksale presale</Trans>{" "}
+            </li>
+            <li>
+              <Trans>Fun Lands sale</Trans>
+            </li>
+            <li>
+              <Trans>Pancakeswap Launch</Trans>{" "}
+            </li>
+            <li>
+              <Trans>Game beta test</Trans>{" "}
+            </li>
+            <li>
+              <Trans>Game Alpha release</Trans>
+            </li>
           </motion.ul>
         </details>
 
@@ -92,8 +125,12 @@ export function Roadmap() {
               {" "}
               <img src={stage_logoG} alt="logo" />
               <div>
-                <h3>Stage 2</h3>
-                <span>(January 2023)</span>
+                <h3>
+                  <Trans>Stage 2</Trans>
+                </h3>
+                <span>
+                  <Trans>(January 2023)</Trans>
+                </span>
               </div>
             </div>
           </summary>
@@ -105,10 +142,18 @@ export function Roadmap() {
             }}
             variants={openVariants}
           >
-            <li>Tier 1 CEX Listings</li>
-            <li>Game v1.0 release</li>
-            <li>Gotchi x Partners limited NFTs </li>
-            <li>Gotchi guilds </li>
+            <li>
+              <Trans>Tier 1 CEX Listings</Trans>
+            </li>
+            <li>
+              <Trans>Game v1.0 release</Trans>
+            </li>
+            <li>
+              <Trans>Gotchi x Partners limited NFTs</Trans>{" "}
+            </li>
+            <li>
+              <Trans>Gotchi guilds</Trans>{" "}
+            </li>
           </motion.ul>
         </details>
         <details>
@@ -117,8 +162,12 @@ export function Roadmap() {
               {" "}
               <img src={stage_logoG} alt="logo" />
               <div>
-                <h3>Stage 3</h3>
-                <span>(February 2023)</span>
+                <h3>
+                  <Trans>Stage 3</Trans>
+                </h3>
+                <span>
+                  <Trans>(February 2023)</Trans>
+                </span>
               </div>
             </div>
           </summary>
@@ -130,11 +179,21 @@ export function Roadmap() {
             }}
             variants={openVariants}
           >
-            <li>Exponential user growth </li>
-            <li>Fun Lands side missions </li>
-            <li>PvP mode launch</li>
-            <li>Limited Winter Season Gotchies NFTs </li>
-            <li>Christmas events</li>
+            <li>
+              <Trans>Exponential user growth</Trans>{" "}
+            </li>
+            <li>
+              <Trans>Fun Lands side missions</Trans>{" "}
+            </li>
+            <li>
+              <Trans>PvP mode launch</Trans>
+            </li>
+            <li>
+              <Trans>Limited Winter Season Gotchies NFTs</Trans>{" "}
+            </li>
+            <li>
+              <Trans>Christmas events</Trans>
+            </li>
           </motion.ul>
         </details>
 
@@ -144,8 +203,12 @@ export function Roadmap() {
               {" "}
               <img src={stage_logoG} alt="logo" />
               <div>
-                <h3>Stage 4</h3>
-                <span>(March 2023)</span>
+                <h3>
+                  <Trans>Stage 4</Trans>
+                </h3>
+                <span>
+                  <Trans>(March 2023)</Trans>
+                </span>
               </div>
             </div>
           </summary>
@@ -157,10 +220,18 @@ export function Roadmap() {
             }}
             variants={openVariants}
           >
-            <li>Gotchies Breeding </li>
-            <li>New evolution stage </li>
-            <li>$GOTCHI staking</li>
-            <li>$GOTCHI on other chains</li>
+            <li>
+              <Trans>Gotchies Breeding</Trans>{" "}
+            </li>
+            <li>
+              <Trans>New evolution stage</Trans>{" "}
+            </li>
+            <li>
+              <Trans>$GOTCHI staking</Trans>
+            </li>
+            <li>
+              <Trans>$GOTCHI on other chains</Trans>
+            </li>
           </motion.ul>
         </details>
       </div>

@@ -27,6 +27,7 @@ import island_first_smoke from "../../../../assets/main/island-first-smoke.webp"
 import island_second_smoke from "../../../../assets/main/island-second-smoke.webp";
 import header_smoke from "../../../../assets/main/header-right-smoke.webp";
 import dragon_above_smoke from "../../../../assets/main/dragon-right-above.webp";
+import { Trans } from "@lingui/macro";
 
 export const Hero: FunctionComponent = () => {
   const [windowWidth, setWindowWidth] = useState(0);
@@ -242,11 +243,15 @@ export const Hero: FunctionComponent = () => {
           transition={{ duration: 0.9 }}
           className="text_area"
         >
-          <h1 className="crypto_h1">CRYPTO</h1>
-          <h1 className="gotchies_h1">GOTCHIES</h1>
+          <h1 className="crypto_h1">
+            <Trans>CRYPTO</Trans>
+          </h1>
+          <h1 className="gotchies_h1">
+            <Trans>GOTCHIES</Trans>
+          </h1>
 
           <h2>
-            Unique digital pet tamagotchi-inspired NFT game
+            <Trans>Unique digital pet tamagotchi-inspired NFT game</Trans>
             {/* <br />{" "} */}
           </h2>
 

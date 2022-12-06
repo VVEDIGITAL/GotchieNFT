@@ -13,6 +13,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Sidebar } from "../../components/mint/sidebar/sidebar";
 import { IslandCard } from "../../components/islandCheckPage/islandInfo/islandCard";
+import { t, Trans } from "@lingui/macro";
 
 const heroH1variants = {
   visible: { opacity: 1, scale: 1, y: 0 },
@@ -65,8 +66,8 @@ export function IslandCheckPage() {
       // 👇️ const result: GetUsersResponse
       const result = (await response.json()) as InformationI;
 
-      console.log("result is: ", JSON.stringify(result, null, 4));
-      console.log(result);
+      // console.log("result is: ", JSON.stringify(result, null, 4));
+      // console.log(result);
       setisFounded(true);
       setisland(result);
       return result;
@@ -102,7 +103,9 @@ export function IslandCheckPage() {
               className="title-block"
             >
               <img src={mini_logo} alt="mini-logo" className="top-logo" />
-              <h1>Get your land information!</h1>
+              <h1>
+                <Trans>Get your land information!</Trans>
+              </h1>
               {/* {
                 <motion.button
                   initial={{
@@ -150,12 +153,17 @@ export function IslandCheckPage() {
               )}
 
               <div className="select-container">
-                <h3>Type an island number</h3>
+                <h3>
+                  <Trans>Type an island number</Trans>
+                </h3>
                 <div className="buttons">
                   <input
                     value={query}
                     onChange={inputHandler}
-                    placeholder="Search island"
+                    placeholder={t({
+                      id: "input.1",
+                      message: `Search island`,
+                    })}
                     className="input"
                     type="number"
                     required={true}
@@ -181,15 +189,15 @@ export function IslandCheckPage() {
                       getIsland(query);
                     }}
                   >
-                    Search
+                    <Trans>Search</Trans>
                   </motion.button>
                 </div>
                 <div className="nets">
                   <a href="https://cryptogotchies.gitbook.io/whitepaper/game-elements/fun-lands">
-                    Learn about Fun Lands
+                    <Trans>Learn about Fun Lands</Trans>
                   </a>
                   <a href="https://cryptogotchies.gitbook.io/whitepaper/how-to-mint">
-                    How to mint
+                    <Trans>How to mint</Trans>
                   </a>
                 </div>
               </div>

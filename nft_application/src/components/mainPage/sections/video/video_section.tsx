@@ -7,6 +7,7 @@ import React from "react";
 import Modal from "../../../modal/modal";
 
 import "./video.sass";
+import { Trans } from "@lingui/macro";
 
 export function VideoSection() {
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -90,14 +91,19 @@ export function VideoSection() {
 
       <div className="container">
         <h2>
-          Crypto Gotchies is a unique P2E digital pet game about cute monsters
-          built on BSC.
+          <Trans>
+            Crypto Gotchies is a unique P2E digital pet game about cute monsters
+            built on BSC.
+          </Trans>
         </h2>
 
         <h3>
-          Crypto Gotchies is a free2play and play2earn Tamagotchi-inspired game
-          in which you will take care of your little Gotchies NFT characters,
-          evolve them and send them to Fun Lands to earn $GOTCHI tokens.
+          <Trans>
+            Crypto Gotchies is a free2play and play2earn Tamagotchi-inspired
+            game in which you will take care of your little Gotchies NFT
+            characters, evolve them and send them to Fun Lands to earn $GOTCHI
+            tokens.
+          </Trans>
         </h3>
 
         <motion.div
@@ -119,7 +125,9 @@ export function VideoSection() {
           <img src={video_fire} alt="fire" className="left-fire" />
           <img src={video_fire} alt="fire" className="right-fire" />
 
-          <button onClick={openModal}>WATCH TRAILER</button>
+          <button onClick={openModal}>
+            <Trans>WATCH TRAILER</Trans>
+          </button>
 
           {/* <video src=""></video> */}
         </motion.div>

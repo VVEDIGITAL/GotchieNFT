@@ -8,7 +8,13 @@ import shark_bright_sky from "../../assets/main/left-bright-sky.webp";
 import bright_casual_sky from "../../assets/main/right-down-bright.webp";
 import change_island from "../../assets/mint/island_change.webm";
 import change_island_mov from "../../assets/mint/change_islands2-1.mov";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  ComponentType,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
 import { motion } from "framer-motion";
 import { Sidebar } from "../../components/mint/sidebar/sidebar";
 import {
@@ -19,6 +25,9 @@ import {
 import { metaMaskConnector } from "../../connection/metamask";
 import { useWeb3React } from "@web3-react/core";
 import { BigNumber, providers, Contract } from "ethers";
+import { Trans } from "@lingui/macro";
+
+// import { Trans as TransR } from "@lingui/react";
 
 const isActiveButton = (count: number, max: number) => {
   return count <= max;
@@ -77,6 +86,7 @@ const useConnectButton = (): [string, () => void] => {
   if (account) {
     return ["Switch network", switchCallback];
   }
+
   return ["Connect With Metamask", connect];
 };
 
@@ -148,7 +158,9 @@ export function Mint() {
               className="title-block"
             >
               <img src={mini_logo} alt="mini-logo" className="top-logo" />
-              <h1>Mint your land NFT (Game access)</h1>
+              <h1>
+                <Trans>Mint your land NFT (Game access)</Trans>
+              </h1>
               {
                 <motion.button
                   onClick={buttonClick}
@@ -185,7 +197,9 @@ export function Mint() {
               </div>
 
               <div className="select-container">
-                <h3>Select how many lands you want to mint</h3>
+                <h3>
+                  <Trans>Select how many lands you want to mint</Trans>
+                </h3>
                 <div className="buttons">
                   <button
                     className={
@@ -195,7 +209,7 @@ export function Mint() {
                     onClick={() => handleMintCallback("1")}
                   >
                     <img src={mini_logo} alt="img-logo" />
-                    One land
+                    <Trans>One land</Trans>
                     <span>(0.3 BNB)</span>
                   </button>
                   <button
@@ -206,7 +220,7 @@ export function Mint() {
                     onClick={() => handleMintCallback("2")}
                   >
                     <img src={mini_logo} alt="img-logo" />
-                    Two lands
+                    <Trans>Two lands</Trans>
                     <span>(0.6 BNB)</span>
                   </button>
                   <button
@@ -217,7 +231,7 @@ export function Mint() {
                     onClick={() => handleMintCallback("3")}
                   >
                     <img src={mini_logo} alt="img-logo" />
-                    Three lands
+                    <Trans>Three lands</Trans>
                     <span>(0.9 BNB)</span>
                   </button>
                   <button
@@ -228,16 +242,16 @@ export function Mint() {
                     onClick={() => handleMintCallback("4")}
                   >
                     <img src={mini_logo} alt="img-logo" />
-                    Four lands
+                    <Trans>Four lands</Trans>
                     <span>(1.2 BNB)</span>
                   </button>
                 </div>
                 <div className="nets">
                   <a href="https://cryptogotchies.gitbook.io/whitepaper/game-elements/fun-lands">
-                    Learn about Fun Lands
+                    <Trans>Learn about Fun Lands</Trans>
                   </a>
                   <a href="https://cryptogotchies.gitbook.io/whitepaper/how-to-mint">
-                    How to mint
+                    <Trans>How to mint</Trans>
                   </a>
                 </div>
               </div>

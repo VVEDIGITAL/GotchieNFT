@@ -5,6 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useEffect, useState } from "react";
 import { ErrorModal } from "../errorModal/errorModal";
 import { NavLink } from "react-router-dom";
+import { Trans } from "@lingui/macro";
 
 const calcOffset = (perc: number) => {
   return (window.outerHeight * perc) / 100;
@@ -40,13 +41,19 @@ export function Header() {
           </div>
           <ul className="menu">
             <AnchorLink offset={calcOffset(8)} href="#video">
-              <li>About</li>
+              <li>
+                <Trans>About</Trans>
+              </li>
             </AnchorLink>
             <AnchorLink offset="50" href="#gotchies">
-              <li>Gotchies</li>
+              <li>
+                <Trans>Gotchies</Trans>
+              </li>
             </AnchorLink>
             <AnchorLink offset="60" href="#features">
-              <li>Features</li>
+              <li>
+                <Trans>Features</Trans>
+              </li>
             </AnchorLink>
             {/* <AnchorLink offset="80" href="#adventures">
               <li className="lands-link">Mint Fun Lands</li>
@@ -58,19 +65,29 @@ export function Header() {
               className="menu-item"
               to="/mint"
             >
-              <li className="lands-link">Mint Fun Lands</li>
+              <li className="lands-link">
+                <Trans>Mint Fun Lands</Trans>
+              </li>
             </NavLink>
             <AnchorLink offset="50" href="#team">
-              <li>Team</li>
+              <li>
+                <Trans>Team</Trans>
+              </li>
             </AnchorLink>
             <AnchorLink offset="0" href="#roadmap">
-              <li>Roadmap</li>
+              <li>
+                <Trans>Roadmap</Trans>
+              </li>
             </AnchorLink>{" "}
             <AnchorLink offset="200" href="#partners">
-              <li>Partners</li>
+              <li>
+                <Trans>Partners</Trans>
+              </li>
             </AnchorLink>{" "}
           </ul>
-          <button onClick={openModal}>D.APP</button>
+          <button onClick={openModal}>
+            <Trans>D.APP</Trans>
+          </button>
         </div>
       </header>
     </>

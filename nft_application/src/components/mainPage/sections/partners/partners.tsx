@@ -3,12 +3,15 @@ import pink_sale from "../../../../assets/main/PinkSale.webp";
 import coin_scope from "../../../../assets/main/CoinScope.webp";
 
 import "./partners.sass";
+import { Trans } from "@lingui/macro";
 
 export function Partners() {
   return (
     <section id="partners" className="partners">
       <div className="container">
-        <h1>Press & Partners</h1>
+        <h1>
+          <Trans>Press & Partners</Trans>
+        </h1>
         <div className="partners-img">
           <a href="https://www.pinksale.finance/">
             <img src={pink_sale} alt="partners mocha" />

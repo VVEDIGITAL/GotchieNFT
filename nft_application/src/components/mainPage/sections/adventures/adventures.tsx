@@ -16,6 +16,7 @@ import island4_mov from "../../../../assets/main/island4.mov";
 
 import "./adventures.sass";
 import { NavLink } from "react-router-dom";
+import { Trans } from "@lingui/macro";
 
 export function Adventures() {
   const variants2 = {
@@ -28,14 +29,18 @@ export function Adventures() {
   };
   return (
     <section id="adventures" className="adventures">
-      <h1>Fun Lands NFT's</h1>
+      <h1>
+        <Trans>Fun Lands NFT's</Trans>
+      </h1>
 
       <div className="right-area-mobile">
         <h3>
-          Fun Lands are limited supply NFT collectibles which offer real utility
-          and limitless passive income opportunities for owners. They are fully
-          integrated into ecosystem as lands which Gotchies visit to earn{" "}
-          <span>$GOTCHI</span> and various in-game resources.
+          <Trans>
+            Fun Lands are limited supply NFT collectibles which offer real
+            utility and limitless passive income opportunities for owners. They
+            are fully integrated into ecosystem as lands which Gotchies visit to
+            earn <span>$GOTCHI</span> and various in-game resources.
+          </Trans>
         </h3>
         <motion.button
           initial={{
@@ -54,7 +59,9 @@ export function Adventures() {
             opacity: 1,
           }}
         >
-          <NavLink to={"/mint"}>Mint Fun Lands</NavLink>
+          <NavLink to={"/mint"}>
+            <Trans>Mint Fun Lands</Trans>
+          </NavLink>
         </motion.button>
       </div>
 
@@ -66,10 +73,12 @@ export function Adventures() {
       >
         <div className="right-area">
           <h3>
-            Fun Lands are limited supply NFT collectibles which offer real
-            utility and limitless passive income opportunities for owners. They
-            are fully integrated into ecosystem as lands which Gotchies visit to
-            earn <span>$GOTCHI</span> and various in-game resources.
+            <Trans>
+              Fun Lands are limited supply NFT collectibles which offer real
+              utility and limitless passive income opportunities for owners.
+              They are fully integrated into ecosystem as lands which Gotchies
+              visit to earn <span>$GOTCHI</span> and various in-game resources.
+            </Trans>
           </h3>
           <motion.button
             initial={{
@@ -88,7 +97,9 @@ export function Adventures() {
               opacity: 1,
             }}
           >
-            <NavLink to={"/mint"}>Mint Fun Lands</NavLink>
+            <NavLink to={"/mint"}>
+              <Trans>Mint Fun Lands</Trans>
+            </NavLink>
           </motion.button>
         </div>
         <div className="sky-images">

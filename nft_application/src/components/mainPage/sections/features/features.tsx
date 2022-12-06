@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import { motion } from "framer-motion";
 import header_smoke from "../../../../assets/main/header-right-smoke.webp";
 import logo1 from "../../../../assets/main/logo1.webp";
@@ -29,7 +30,9 @@ export function Features() {
   return (
     <section id="features" className="features">
       <div className="container">
-        <h2>Core Features</h2>
+        <h2>
+          <Trans>Core Features</Trans>
+        </h2>
         <img src={header_smoke} alt="sky" className="smoke" />
         <div className="cards">
           <motion.div
@@ -48,17 +51,23 @@ export function Features() {
               <div className="logo_img">
                 <img src={logo1} alt="hand" />
               </div>
-              <h3>True Ownership</h3>
+              <h3>
+                <Trans>True Ownership</Trans>
+              </h3>
             </div>
             <h4>
-              Gotchies and Fun Lands are NFTs meaning you have 100% ownership
-              over the assets. You can buy, sell and transfer it to anyone
-              without any restriction.
+              <Trans>
+                Gotchies and Fun Lands are NFTs meaning you have 100% ownership
+                over the assets. You can buy, sell and transfer it to anyone
+                without any restriction.
+              </Trans>
             </h4>
             <h4 className="mobile">
-              Gotchies and Fun Lands are NFTs meaning you have 100% ownership
-              over the assets. You can buy, sell and transfer it to anyone
-              without any restriction.
+              <Trans>
+                Gotchies and Fun Lands are NFTs meaning you have 100% ownership
+                over the assets. You can buy, sell and transfer it to anyone
+                without any restriction.
+              </Trans>
             </h4>
           </motion.div>
 
@@ -78,18 +87,24 @@ export function Features() {
               <div className="logo_img">
                 <img src={logo2} alt="Marketplace" />
               </div>
-              <h3>Secondary Market </h3>
+              <h3>
+                <Trans>Secondary Market</Trans>{" "}
+              </h3>
             </div>
 
             <h4>
-              You can trade your NFT on any secondary third party NFT
-              Marketplaces. Crypto Gotchies will be verified NFT collection on
-              multiple NFT Marketplaces including our own one.
+              <Trans>
+                You can trade your NFT on any secondary third party NFT
+                Marketplaces. Crypto Gotchies will be verified NFT collection on
+                multiple NFT Marketplaces including our own one.
+              </Trans>
             </h4>
             <h4 className="mobile">
-              You can trade your NFT on any secondary third party NFT
-              Marketplaces. Crypto Gotchies will be verified NFT collection on
-              multiple NFT Marketplaces including our own one.
+              <Trans>
+                You can trade your NFT on any secondary third party NFT
+                Marketplaces. Crypto Gotchies will be verified NFT collection on
+                multiple NFT Marketplaces including our own one.
+              </Trans>
             </h4>
           </motion.div>
 
@@ -120,15 +135,21 @@ export function Features() {
               <div className="logo_img">
                 <img src={logo4} alt="wallet" />
               </div>
-              <h3>In-Game Wallet</h3>
+              <h3>
+                <Trans>In-Game Wallet</Trans>
+              </h3>
             </div>
             <h4>
-              Crypto Gotchies utilizes in-game wallet which stores your $GOTCHI
-              safely and lets deposit or withdraw tokens at any time.
+              <Trans>
+                Crypto Gotchies utilizes in-game wallet which stores your
+                $GOTCHI safely and lets deposit or withdraw tokens at any time.
+              </Trans>
             </h4>
             <h4 className="mobile">
-              Crypto Gotchies utilizes in-game wallet which stores your $GOTCHI
-              safely and lets deposit or withdraw tokens at any time.
+              <Trans>
+                Crypto Gotchies utilizes in-game wallet which stores your
+                $GOTCHI safely and lets deposit or withdraw tokens at any time.
+              </Trans>
             </h4>
           </motion.div>
 
@@ -148,15 +169,23 @@ export function Features() {
               <div className="logo_img">
                 <img src={logo5} alt="design" />
               </div>
-              <h3>Security first </h3>
+              <h3>
+                <Trans>Security first</Trans>{" "}
+              </h3>
             </div>
             <h4>
-              We implemented well secured game internals with a help of leading
-              experts. Crypto Gotchies is audited and our team is KYC'd.
+              <Trans>
+                We implemented well secured game internals with a help of
+                leading experts. Crypto Gotchies is audited and our team is
+                KYC'd.
+              </Trans>
             </h4>
             <h4 className="mobile">
-              We implemented well secured game internals with a help of leading
-              experts. Crypto Gotchies is audited and our team is KYC'd.
+              <Trans>
+                We implemented well secured game internals with a help of
+                leading experts. Crypto Gotchies is audited and our team is
+                KYC'd.
+              </Trans>
             </h4>
           </motion.div>
 

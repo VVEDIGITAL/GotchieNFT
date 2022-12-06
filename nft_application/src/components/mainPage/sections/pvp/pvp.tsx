@@ -3,12 +3,15 @@ import pvpFly from "../../../../assets/main/fly-pvp.webp";
 
 import "./pvp.sass";
 import { motion } from "framer-motion";
+import { Trans } from "@lingui/macro";
 
 export function Pvp() {
   return (
     <section className="pvp">
       <div className="container">
-        <h1>PVP Mode Coming Soon</h1>
+        <h1>
+          <Trans>PVP Mode Coming Soon</Trans>
+        </h1>
         <img src={pvp} alt="pvp await img" className="bg" />
         <motion.img
           animate={{ y: "-7%" }}

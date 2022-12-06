@@ -16,6 +16,7 @@ import g_boy1 from "../../../assets/main/gotchie_boy3.mp4";
 import g_boy2 from "../../../assets/main/gotchie_boy5.mp4";
 import g_girl from "../../../assets/main/gotchie_girl.mp4";
 import g_dragon from "../../../assets/main/gotchie_dragon.mp4";
+import { t } from "@lingui/macro";
 
 export const Slider: FunctionComponent = () => {
   const swiper = useSwiper();
@@ -36,27 +37,57 @@ export const Slider: FunctionComponent = () => {
             <SwiperSlide>
               <Gotchie_card
                 img={g_girl}
-                title="Olivia"
-                supply="Child: 50"
-                rarety="free"
+                title={t({
+                  id: "title.1",
+                  message: `Olivia`,
+                })}
+                supply={t({
+                  id: "supply.1",
+                  message: `Child: 50`,
+                })}
+                rarety={t({
+                  id: "rarety.1",
+                  message: `free`,
+                })}
+                raretyUI="free"
                 market_url="/"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Gotchie_card
                 img={g_boy2}
-                title="Andrew"
-                supply="Teen: 100"
-                rarety="common"
+                title={t({
+                  id: "title.2",
+                  message: `Andrew`,
+                })}
+                supply={t({
+                  id: "supply.2",
+                  message: `Teen: 100`,
+                })}
+                rarety={t({
+                  id: "rarety.2",
+                  message: `common`,
+                })}
+                raretyUI="common"
                 market_url="/"
               />
             </SwiperSlide>
             <SwiperSlide>
               <Gotchie_card
                 img={g_boy}
-                title="William"
-                supply="Adult: 10"
-                rarety="uncommon"
+                title={t({
+                  id: "title.3",
+                  message: `William`,
+                })}
+                supply={t({
+                  id: "supply.3",
+                  message: `Adult: 10`,
+                })}
+                rarety={t({
+                  id: "rarety.3",
+                  message: `uncommon`,
+                })}
+                raretyUI="uncommon"
                 market_url="/"
               />
             </SwiperSlide>
@@ -64,9 +95,19 @@ export const Slider: FunctionComponent = () => {
             <SwiperSlide>
               <Gotchie_card
                 img={g_boy1}
-                title="Stewart"
-                supply="Child: 70"
-                rarety="rare"
+                title={t({
+                  id: "title.4",
+                  message: `Stewart`,
+                })}
+                supply={t({
+                  id: "supply.4",
+                  message: `Child: 70`,
+                })}
+                rarety={t({
+                  id: "rarety.4",
+                  message: `rare`,
+                })}
+                raretyUI="rare"
                 market_url="/"
               />
             </SwiperSlide>
@@ -74,9 +115,19 @@ export const Slider: FunctionComponent = () => {
             <SwiperSlide>
               <Gotchie_card
                 img={g_dragon}
-                title="Ava "
-                supply="Baby: 5"
-                rarety="legendary"
+                title={t({
+                  id: "title.5",
+                  message: `Ava`,
+                })}
+                supply={t({
+                  id: "supply.5",
+                  message: `Baby: 5`,
+                })}
+                rarety={t({
+                  id: "rarety.5",
+                  message: `legendary`,
+                })}
+                raretyUI="legendary"
                 market_url="/"
               />
             </SwiperSlide>

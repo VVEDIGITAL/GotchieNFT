@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import { motion } from "framer-motion";
 import room1 from "../../../../assets/main/house1.webp";
 import room2 from "../../../../assets/main/house2.webp";
@@ -18,13 +19,17 @@ export function Housing() {
   return (
     <section id="housing" className="housing">
       <div className="container">
-        <h1>Gotchi Space</h1>
+        <h1>
+          <Trans>Gotchi Space</Trans>
+        </h1>
         <h3>
-          All Gotchies have their own Space! You can customize it using
-          furniture. The furniture has the added functionality of providing
-          passive bonuses. The players can reduce the recovery time of each
-          attribute of the chosen Gotchi. As well as some production
-          capabilities of consumable items.
+          <Trans>
+            All Gotchies have their own Space! You can customize it using
+            furniture. The furniture has the added functionality of providing
+            passive bonuses. The players can reduce the recovery time of each
+            attribute of the chosen Gotchi. As well as some production
+            capabilities of consumable items.
+          </Trans>
         </h3>
 
         <div className="rooms">

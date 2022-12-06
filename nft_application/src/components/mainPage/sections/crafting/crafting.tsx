@@ -12,6 +12,7 @@ import emblem3 from "../../../../assets/main/emblem3.png";
 // import emblem3 from "../../../../assets/main/emblem3.webp";
 
 import "./crafting.sass";
+import { Trans } from "@lingui/macro";
 
 export function Crafting() {
   const cardsVariants = {
@@ -27,7 +28,9 @@ export function Crafting() {
       <div className="squared-container">
         <img src={top_border} alt="tech-border" className="top-border" />
         <div className="container">
-          <h1>Gameplay</h1>
+          <h1>
+            <Trans>Gameplay</Trans>
+          </h1>
           <div className="cards">
             <motion.div
               initial={"hidden"}
@@ -46,12 +49,16 @@ export function Crafting() {
                 <img src={emblem1} alt="collection logo" />
               </div>
               <div className="text first">
-                <h2>Explore</h2>
+                <h2>
+                  <Trans>Explore</Trans>
+                </h2>
                 <h3>
-                  Great rewards come with great efforts. Send your Gotchi via
-                  Portal to Fun Lands to visit Kindergarten, School or Business
-                  Center depending on it's evolution stage to earn $GOTCHI and
-                  progress with the evolution.
+                  <Trans>
+                    Great rewards come with great efforts. Send your Gotchi via
+                    Portal to Fun Lands to visit Kindergarten, School or
+                    Business Center depending on it's evolution stage to earn
+                    $GOTCHI and progress with the evolution.
+                  </Trans>
                 </h3>
               </div>
             </motion.div>
@@ -74,10 +81,15 @@ export function Crafting() {
               </div>
 
               <div className="text second">
-                <h2>Take care</h2>
+                <h2>
+                  <Trans>Take care</Trans>
+                </h2>
                 <h3>
-                  All Gotchies need to be well taken care of. This is done by
-                  completing mini-tasks such as feeding, hygiene care and sleep.
+                  <Trans>
+                    All Gotchies need to be well taken care of. This is done by
+                    completing mini-tasks such as feeding, hygiene care and
+                    sleep.
+                  </Trans>
                 </h3>
               </div>
             </motion.div>
@@ -99,11 +111,15 @@ export function Crafting() {
                 <img src={emblem3} alt="craft logo" />
               </div>
               <div className="text thirst">
-                <h2>Evolve</h2>
+                <h2>
+                  <Trans>Evolve</Trans>
+                </h2>
                 <h3>
-                  Your Gotchi has 4 evolution stages: Baby, Child, Teen, Adult.
-                  Each stage brings its own challenges and has different care
-                  routine.
+                  <Trans>
+                    Your Gotchi has 4 evolution stages: Baby, Child, Teen,
+                    Adult. Each stage brings its own challenges and has
+                    different care routine.
+                  </Trans>
                 </h3>
               </div>
             </motion.div>

@@ -5,6 +5,7 @@ import partner_gotchie from "../../../../assets/main/partner-gotchie.mp4";
 import partner_gotchie_mov from "../../../../assets/main/partner-gotchie.mov";
 
 import "./special.sass";
+import { Trans } from "@lingui/macro";
 
 export function Special() {
   const variants2 = {
@@ -20,11 +21,15 @@ export function Special() {
     <section id="special" className="special">
       <div className="container">
         <img src={special_bg} alt="bg" className="bg" />
-        <h1>Want To Become Our Partner</h1>
+        <h1>
+          <Trans>Want To Become Our Partner</Trans>
+        </h1>
 
         <h3>
-          Each day we pursue getting new partners onboard by offering branded
-          limited NFT Gotchies and Additional Items collectibles.
+          <Trans>
+            Each day we pursue getting new partners onboard by offering branded
+            limited NFT Gotchies and Additional Items collectibles.
+          </Trans>
         </h3>
 
         <div className="cards">
@@ -49,7 +54,7 @@ export function Special() {
             </video>
             <div className="description">
               <h3>
-                Branded Gotchi special
+                <Trans>Branded Gotchi special</Trans>
                 <br />
               </h3>
             </div>

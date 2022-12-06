@@ -5,6 +5,7 @@ import roulette_mov from "../../../../assets/main/roulette.mov";
 import bright_casual_sky from "../../../../assets/main/right-down-bright.webp";
 
 import "./roulette.sass";
+import { Trans } from "@lingui/macro";
 
 export function Roulette() {
   const sky_variants = {
@@ -51,12 +52,16 @@ export function Roulette() {
 
       <div className="container">
         <div className="text-side">
-          <h1>Gotchi Roulette</h1>
+          <h1>
+            <Trans>Gotchi Roulette</Trans>
+          </h1>
           <h3>
-            Try your luck by betting $GOTCHI on the Gotchi Wheel.
+            <Trans>Try your luck by betting $GOTCHI on the Gotchi Wheel.</Trans>
             <br /> <br />
-            Gotchi Wheel is an mathematically legit gambling game with high
-            potential ROI and fair RTP of 89%
+            <Trans>
+              Gotchi Wheel is an mathematically legit gambling game with high
+              potential ROI and fair RTP of 89%
+            </Trans>
           </h3>
         </div>
         <video playsInline autoPlay loop muted>

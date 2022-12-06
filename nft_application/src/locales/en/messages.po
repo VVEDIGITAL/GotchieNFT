@@ -1,0 +1,726 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-12-06 11:54+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:48
+msgid "9"
+msgstr "9"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:55
+msgid "$GOTCHI Presale"
+msgstr "$GOTCHI Presale"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:25
+msgid "$GOTCHI is a BEP20 main in-game token which is used for NFT minting, buying additional items, levelling up and buying Fun Lands. You earn it by visiting Fun Lands"
+msgstr "$GOTCHI is a BEP20 main in-game token which is used for NFT minting, buying additional items, levelling up and buying Fun Lands. You earn it by visiting Fun Lands"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:235
+msgid "$GOTCHI on other chains"
+msgstr "$GOTCHI on other chains"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:232
+msgid "$GOTCHI staking"
+msgstr "$GOTCHI staking"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:61
+msgid "$GOTCHI token deploy"
+msgstr "$GOTCHI token deploy"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:91
+msgid "(December 2022)"
+msgstr "(December 2022)"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:169
+msgid "(February 2023)"
+msgstr "(February 2023)"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:132
+msgid "(January 2023)"
+msgstr "(January 2023)"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:212
+msgid "(March 2023)"
+msgstr "(March 2023)"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:35
+msgid "(November 2022)"
+msgstr "(November 2022)"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:55
+msgid "0%"
+msgstr "0%"
+
+#: nft_application/src/components/mainPage/sections/team/team.tsx:27
+msgid "3D designer"
+msgstr "3D designer"
+
+#: nft_application/src/components/header_main_page/header.tsx:45
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:76
+msgid "About"
+msgstr "About"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:89
+msgid "Achievements"
+msgstr "Achievements"
+
+#: nft_application/src/components/mainPage/sections/housing/housing.tsx:26
+msgid "All Gotchies have their own Space! You can customize it using furniture. The furniture has the added functionality of providing passive bonuses. The players can reduce the recovery time of each attribute of the chosen Gotchi. As well as some production capabilities of consumable items."
+msgstr "All Gotchies have their own Space! You can customize it using furniture. The furniture has the added functionality of providing passive bonuses. The players can reduce the recovery time of each attribute of the chosen Gotchi. As well as some production capabilities of consumable items."
+
+#: nft_application/src/components/mainPage/sections/crafting/crafting.tsx:88
+msgid "All Gotchies need to be well taken care of. This is done by completing mini-tasks such as feeding, hygiene care and sleep."
+msgstr "All Gotchies need to be well taken care of. This is done by completing mini-tasks such as feeding, hygiene care and sleep."
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:107
+msgid "Audit"
+msgstr "Audit"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:86
+msgid "Audits"
+msgstr "Audits"
+
+#: nft_application/src/components/mainPage/sections/special/special.tsx:57
+msgid "Branded Gotchi special"
+msgstr "Branded Gotchi special"
+
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:49
+msgid "Buy on platform"
+msgstr "Buy on platform"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:53
+msgid "Buy/Sell tax:"
+msgstr "Buy/Sell tax:"
+
+#: nft_application/src/components/mainPage/sections/team/team.tsx:96
+msgid "CEO"
+msgstr "CEO"
+
+#: nft_application/src/components/mainPage/sections/team/team.tsx:83
+msgid "CMO"
+msgstr "CMO"
+
+#: nft_application/src/components/mainPage/sections/hero/hero.tsx:247
+msgid "CRYPTO"
+msgstr "CRYPTO"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:98
+msgid "Chart"
+msgstr "Chart"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:195
+msgid "Christmas events"
+msgstr "Christmas events"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:72
+msgid "Click to copy"
+msgstr "Click to copy"
+
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:45
+msgid "Coming Soon"
+msgstr "Coming Soon"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:93
+msgid "Contract"
+msgstr "Contract"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:60
+msgid "Contract address:"
+msgstr "Contract address:"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:68
+msgid "Copied"
+msgstr "Copied"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:34
+msgid "Core Features"
+msgstr "Core Features"
+
+#: nft_application/src/components/mainPage/sections/platform/platform.tsx:46
+msgid "Crypto Gotchies <0/> not your typical P2E game"
+msgstr "Crypto Gotchies <0/> not your typical P2E game"
+
+#: nft_application/src/components/mainPage/sections/video/video_section.tsx:101
+msgid "Crypto Gotchies is a free2play and play2earn Tamagotchi-inspired game in which you will take care of your little Gotchies NFT characters, evolve them and send them to Fun Lands to earn $GOTCHI tokens."
+msgstr "Crypto Gotchies is a free2play and play2earn Tamagotchi-inspired game in which you will take care of your little Gotchies NFT characters, evolve them and send them to Fun Lands to earn $GOTCHI tokens."
+
+#: nft_application/src/components/mainPage/sections/video/video_section.tsx:94
+msgid "Crypto Gotchies is a unique P2E digital pet game about cute monsters built on BSC."
+msgstr "Crypto Gotchies is a unique P2E digital pet game about cute monsters built on BSC."
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:143
+#: nft_application/src/components/mainPage/sections/features/features.tsx:149
+msgid "Crypto Gotchies utilizes in-game wallet which stores your $GOTCHI safely and lets deposit or withdraw tokens at any time."
+msgstr "Crypto Gotchies utilizes in-game wallet which stores your $GOTCHI safely and lets deposit or withdraw tokens at any time."
+
+#: nft_application/src/components/header_main_page/header.tsx:89
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:140
+#: nft_application/src/components/mint/sidebar/sidebar.tsx:87
+msgid "D.APP"
+msgstr "D.APP"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:46
+msgid "Decimals:"
+msgstr "Decimals:"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:32
+msgid "Description:"
+msgstr "Description:"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:97
+msgid "Documents"
+msgstr "Documents"
+
+#: nft_application/src/components/mainPage/sections/special/special.tsx:29
+msgid "Each day we pursue getting new partners onboard by offering branded limited NFT Gotchies and Additional Items collectibles."
+msgstr "Each day we pursue getting new partners onboard by offering branded limited NFT Gotchies and Additional Items collectibles."
+
+#: nft_application/src/pages/error404/errorPage.tsx:8
+msgid "Error"
+msgstr "Error"
+
+#: nft_application/src/components/mainPage/sections/crafting/crafting.tsx:115
+msgid "Evolve"
+msgstr "Evolve"
+
+#: nft_application/src/components/mainPage/sections/crafting/crafting.tsx:53
+msgid "Explore"
+msgstr "Explore"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:183
+msgid "Exponential user growth"
+msgstr "Exponential user growth"
+
+#: nft_application/src/components/header_main_page/header.tsx:55
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:96
+msgid "Features"
+msgstr "Features"
+
+#: nft_application/src/pages/mint/mint.tsx:245
+msgid "Four lands"
+msgstr "Four lands"
+
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:106
+msgid "Fun Lands"
+msgstr "Fun Lands"
+
+#: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:33
+msgid "Fun Lands NFT's"
+msgstr "Fun Lands NFT's"
+
+#: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:38
+#: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:76
+msgid "Fun Lands are limited supply NFT collectibles which offer real utility and limitless passive income opportunities for owners. They are fully integrated into ecosystem as lands which Gotchies visit to earn <0>$GOTCHI</0> and various in-game resources."
+msgstr "Fun Lands are limited supply NFT collectibles which offer real utility and limitless passive income opportunities for owners. They are fully integrated into ecosystem as lands which Gotchies visit to earn <0>$GOTCHI</0> and various in-game resources."
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:108
+msgid "Fun Lands sale"
+msgstr "Fun Lands sale"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:186
+msgid "Fun Lands side missions"
+msgstr "Fun Lands side missions"
+
+#: nft_application/src/components/mainPage/sections/hero/hero.tsx:250
+msgid "GOTCHIES"
+msgstr "GOTCHIES"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:74
+msgid "Game"
+msgstr "Game"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:117
+msgid "Game Alpha release"
+msgstr "Game Alpha release"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:49
+msgid "Game Concept"
+msgstr "Game Concept"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:79
+msgid "Game World"
+msgstr "Game World"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:114
+msgid "Game beta test"
+msgstr "Game beta test"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:149
+msgid "Game v1.0 release"
+msgstr "Game v1.0 release"
+
+#: nft_application/src/components/mainPage/sections/crafting/crafting.tsx:32
+msgid "Gameplay"
+msgstr "Gameplay"
+
+#: nft_application/src/pages/islandCheck/islandCheck.tsx:107
+msgid "Get your land information!"
+msgstr "Get your land information!"
+
+#: nft_application/src/components/mainPage/sections/roulette/roulette.tsx:56
+msgid "Gotchi Roulette"
+msgstr "Gotchi Roulette"
+
+#: nft_application/src/components/mainPage/sections/housing/housing.tsx:23
+msgid "Gotchi Space"
+msgstr "Gotchi Space"
+
+#: nft_application/src/components/mainPage/sections/roulette/roulette.tsx:61
+msgid "Gotchi Wheel is an mathematically legit gambling game with high potential ROI and fair RTP of 89%"
+msgstr "Gotchi Wheel is an mathematically legit gambling game with high potential ROI and fair RTP of 89%"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:155
+msgid "Gotchi guilds"
+msgstr "Gotchi guilds"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:152
+msgid "Gotchi x Partners limited NFTs"
+msgstr "Gotchi x Partners limited NFTs"
+
+#: nft_application/src/components/mainPage/sections/platform/platform.tsx:69
+msgid "GotchiVerse"
+msgstr "GotchiVerse"
+
+#: nft_application/src/components/header_main_page/header.tsx:50
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:86
+msgid "Gotchies"
+msgstr "Gotchies"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:226
+msgid "Gotchies Breeding"
+msgstr "Gotchies Breeding"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:81
+msgid "Gotchies Time!"
+msgstr "Gotchies Time!"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:64
+msgid "Gotchies and Fun Lands NFTs contracts design"
+msgstr "Gotchies and Fun Lands NFTs contracts design"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:59
+#: nft_application/src/components/mainPage/sections/features/features.tsx:66
+msgid "Gotchies and Fun Lands are NFTs meaning you have 100% ownership over the assets. You can buy, sell and transfer it to anyone without any restriction."
+msgstr "Gotchies and Fun Lands are NFTs meaning you have 100% ownership over the assets. You can buy, sell and transfer it to anyone without any restriction."
+
+#: nft_application/src/components/mainPage/sections/avatars/avatars.tsx:213
+msgid "Gotchies are digital pet NFTs which you'll need to take care of and earn $GOTCHI rewards for it. Each Gotchi is unique! They come from Eggs. Depending on rarity, each has different earning potential. During the game you will go through 4 evolution stages such as Baby, Child, Teen and adult. Each stage has different experience to it"
+msgstr "Gotchies are digital pet NFTs which you'll need to take care of and earn $GOTCHI rewards for it. Each Gotchi is unique! They come from Eggs. Depending on rarity, each has different earning potential. During the game you will go through 4 evolution stages such as Baby, Child, Teen and adult. Each stage has different experience to it"
+
+#: nft_application/src/components/mainPage/sections/crafting/crafting.tsx:56
+msgid "Great rewards come with great efforts. Send your Gotchi via Portal to Fun Lands to visit Kindergarten, School or Business Center depending on it's evolution stage to earn $GOTCHI and progress with the evolution."
+msgstr "Great rewards come with great efforts. Send your Gotchi via Portal to Fun Lands to visit Kindergarten, School or Business Center depending on it's evolution stage to earn $GOTCHI and progress with the evolution."
+
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:66
+#: nft_application/src/components/mint/sidebar/sidebar.tsx:77
+msgid "Home"
+msgstr "Home"
+
+#: nft_application/src/pages/islandCheck/islandCheck.tsx:200
+#: nft_application/src/pages/mint/mint.tsx:254
+msgid "How to mint"
+msgstr "How to mint"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:139
+msgid "In-Game Wallet"
+msgstr "In-Game Wallet"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:58
+msgid "In-game wallet system"
+msgstr "In-game wallet system"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:50
+msgid "Invest"
+msgstr "Invest"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:17
+msgid "Join Us"
+msgstr "Join Us"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:112
+msgid "KYC"
+msgstr "KYC"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:84
+#: nft_application/src/components/mainPage/sections/platform/platform.tsx:91
+msgid "Leaderboard"
+msgstr "Leaderboard"
+
+#: nft_application/src/pages/islandCheck/islandCheck.tsx:197
+#: nft_application/src/pages/mint/mint.tsx:251
+msgid "Learn about Fun Lands"
+msgstr "Learn about Fun Lands"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:81
+msgid "Learn more"
+msgstr "Learn more"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:192
+msgid "Limited Winter Season Gotchies NFTs"
+msgstr "Limited Winter Season Gotchies NFTs"
+
+#: nft_application/src/components/mainPage/sections/avatars/avatars.tsx:210
+msgid "Meet Gotchies"
+msgstr "Meet Gotchies"
+
+#: nft_application/src/components/header_main_page/header.tsx:69
+#: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:63
+#: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:101
+msgid "Mint Fun Lands"
+msgstr "Mint Fun Lands"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:60
+msgid "Mint Lands"
+msgstr "Mint Lands"
+
+#: nft_application/src/components/mainPage/sections/avatars/avatars.tsx:240
+msgid "Mint your Gotchi"
+msgstr "Mint your Gotchi"
+
+#: nft_application/src/pages/mint/mint.tsx:162
+msgid "Mint your land NFT (Game access)"
+msgstr "Mint your land NFT (Game access)"
+
+#: nft_application/src/components/mainPage/sections/platform/platform.tsx:75
+msgid "Multiplayer"
+msgstr "Multiplayer"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:66
+msgid "NFT Market"
+msgstr "NFT Market"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:28
+msgid "Name:"
+msgstr "Name:"
+
+#: nft_application/src/components/mainPage/sections/sales/sales.tsx:11
+msgid "New Updates"
+msgstr "New Updates"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:229
+msgid "New evolution stage"
+msgstr "New evolution stage"
+
+#: nft_application/src/pages/mint/mint.tsx:212
+msgid "One land"
+msgstr "One land"
+
+#: nft_application/src/components/mint/sidebar/sidebar.tsx:61
+msgid "Oups, Coming Soon!"
+msgstr "Oups, Coming Soon!"
+
+#: nft_application/src/components/mainPage/sections/pvp/pvp.tsx:13
+msgid "PVP Mode Coming Soon"
+msgstr "PVP Mode Coming Soon"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:111
+msgid "Pancakeswap Launch"
+msgstr "Pancakeswap Launch"
+
+#: nft_application/src/components/header_main_page/header.tsx:84
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:136
+msgid "Partners"
+msgstr "Partners"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:105
+msgid "Pinksale presale"
+msgstr "Pinksale presale"
+
+#: nft_application/src/components/mainPage/sections/partners/partners.tsx:13
+msgid "Press & Partners"
+msgstr "Press & Partners"
+
+#: nft_application/src/components/mainPage/sections/team/team.tsx:40
+msgid "Project manager"
+msgstr "Project manager"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:189
+msgid "PvP mode launch"
+msgstr "PvP mode launch"
+
+#: nft_application/src/components/header_main_page/header.tsx:79
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:21
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:126
+msgid "Roadmap"
+msgstr "Roadmap"
+
+#: nft_application/src/pages/islandCheck/islandCheck.tsx:192
+msgid "Search"
+msgstr "Search"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:91
+msgid "Secondary Market"
+msgstr "Secondary Market"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:173
+msgid "Security first"
+msgstr "Security first"
+
+#: nft_application/src/pages/mint/mint.tsx:201
+msgid "Select how many lands you want to mint"
+msgstr "Select how many lands you want to mint"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:32
+msgid "Stage 0"
+msgstr "Stage 0"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:88
+msgid "Stage 1"
+msgstr "Stage 1"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:129
+msgid "Stage 2"
+msgstr "Stage 2"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:166
+msgid "Stage 3"
+msgstr "Stage 3"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:208
+msgid "Stage 4"
+msgstr "Stage 4"
+
+#: nft_application/src/components/mainPage/sections/crafting/crafting.tsx:85
+msgid "Take care"
+msgstr "Take care"
+
+#: nft_application/src/components/header_main_page/header.tsx:74
+#: nft_application/src/components/mainPage/sections/team/team.tsx:15
+#: nft_application/src/components/mainPage/sidebar/sidebar.tsx:116
+msgid "Team"
+msgstr "Team"
+
+#: nft_application/src/components/mainPage/sections/platform/platform.tsx:82
+msgid "Teams"
+msgstr "Teams"
+
+#: nft_application/src/pages/mint/mint.tsx:234
+msgid "Three lands"
+msgstr "Three lands"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:146
+msgid "Tier 1 CEX Listings"
+msgstr "Tier 1 CEX Listings"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:22
+msgid "Token"
+msgstr "Token"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:38
+msgid "Token Name:"
+msgstr "Token Name:"
+
+#: nft_application/src/components/mainPage/sections/tokens/tokens.tsx:42
+msgid "Token Ticker:"
+msgstr "Token Ticker:"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:55
+msgid "True Ownership"
+msgstr "True Ownership"
+
+#: nft_application/src/components/mainPage/sections/roulette/roulette.tsx:59
+msgid "Try your luck by betting $GOTCHI on the Gotchi Wheel."
+msgstr "Try your luck by betting $GOTCHI on the Gotchi Wheel."
+
+#: nft_application/src/pages/mint/mint.tsx:223
+msgid "Two lands"
+msgstr "Two lands"
+
+#: nft_application/src/pages/islandCheck/islandCheck.tsx:157
+msgid "Type an island number"
+msgstr "Type an island number"
+
+#: nft_application/src/components/mainPage/sections/hero/hero.tsx:254
+msgid "Unique digital pet tamagotchi-inspired NFT game"
+msgstr "Unique digital pet tamagotchi-inspired NFT game"
+
+#: nft_application/src/components/mainPage/sections/platform/platform.tsx:97
+msgid "Updates"
+msgstr "Updates"
+
+#: nft_application/src/components/mainPage/sections/video/video_section.tsx:129
+msgid "WATCH TRAILER"
+msgstr "WATCH TRAILER"
+
+#: nft_application/src/components/mainPage/sections/special/special.tsx:25
+msgid "Want To Become Our Partner"
+msgstr "Want To Become Our Partner"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:177
+#: nft_application/src/components/mainPage/sections/features/features.tsx:184
+msgid "We implemented well secured game internals with a help of leading experts. Crypto Gotchies is audited and our team is KYC'd."
+msgstr "We implemented well secured game internals with a help of leading experts. Crypto Gotchies is audited and our team is KYC'd."
+
+#: nft_application/src/components/mainPage/sections/platform/platform.tsx:51
+msgid "We plan to create GotchiVerse and integrate social-fi creating whole different AAA game experience. With future lobby update you will be able to team up with your friends and explore Fun Lands and even battle with other teams to split weekly prizes along with top 10 teams from leaderboard."
+msgstr "We plan to create GotchiVerse and integrate social-fi creating whole different AAA game experience. With future lobby update you will be able to team up with your friends and explore Fun Lands and even battle with other teams to split weekly prizes along with top 10 teams from leaderboard."
+
+#: nft_application/src/components/mainPage/sections/team/team.tsx:53
+msgid "Web designer"
+msgstr "Web designer"
+
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:55
+msgid "Website launch"
+msgstr "Website launch"
+
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:102
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:52
+msgid "Whitepaper"
+msgstr "Whitepaper"
+
+#: nft_application/src/components/mainPage/sections/features/features.tsx:96
+#: nft_application/src/components/mainPage/sections/features/features.tsx:103
+msgid "You can trade your NFT on any secondary third party NFT Marketplaces. Crypto Gotchies will be verified NFT collection on multiple NFT Marketplaces including our own one."
+msgstr "You can trade your NFT on any secondary third party NFT Marketplaces. Crypto Gotchies will be verified NFT collection on multiple NFT Marketplaces including our own one."
+
+#: nft_application/src/components/mainPage/sections/crafting/crafting.tsx:118
+msgid "Your Gotchi has 4 evolution stages: Baby, Child, Teen, Adult. Each stage brings its own challenges and has different care routine."
+msgstr "Your Gotchi has 4 evolution stages: Baby, Child, Teen, Adult. Each stage brings its own challenges and has different care routine."
+
+#: nft_application/src/components/mainPage/sections/team/team.tsx:68
+msgid "blockchain dev"
+msgstr "blockchain dev"
+
+#: nft_application/src/pages/islandCheck/islandCheck.tsx:163
+msgid "input.1"
+msgstr "Search island"
+
+#. Greetings at the homepage
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:67
+#~ msgid "msg.child1"
+#~ msgstr "Child: 50"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:102
+#: nft_application/src/components/mainPage/slider/slider.tsx:48
+msgid "rarety.1"
+msgstr "free"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:126
+#: nft_application/src/components/mainPage/slider/slider.tsx:66
+msgid "rarety.2"
+msgstr "common"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:150
+#: nft_application/src/components/mainPage/slider/slider.tsx:84
+msgid "rarety.3"
+msgstr "uncommon"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:175
+#: nft_application/src/components/mainPage/slider/slider.tsx:103
+msgid "rarety.4"
+msgstr "rare"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:199
+#: nft_application/src/components/mainPage/slider/slider.tsx:122
+msgid "rarety.5"
+msgstr "legendary"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:98
+#: nft_application/src/components/mainPage/slider/slider.tsx:44
+msgid "supply.1"
+msgstr "Child: 50"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:122
+#: nft_application/src/components/mainPage/slider/slider.tsx:62
+msgid "supply.2"
+msgstr "Teen: 100"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:146
+#: nft_application/src/components/mainPage/slider/slider.tsx:80
+msgid "supply.3"
+msgstr "Adult: 10"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:171
+#: nft_application/src/components/mainPage/slider/slider.tsx:99
+msgid "supply.4"
+msgstr "Child: 70"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:195
+#: nft_application/src/components/mainPage/slider/slider.tsx:118
+msgid "supply.5"
+msgstr "Baby: 5"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:94
+#: nft_application/src/components/mainPage/slider/slider.tsx:40
+msgid "title.1"
+msgstr "Olivia"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:118
+#: nft_application/src/components/mainPage/slider/slider.tsx:58
+msgid "title.2"
+msgstr "Andrew"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:142
+#: nft_application/src/components/mainPage/slider/slider.tsx:76
+msgid "title.3"
+msgstr "William"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:167
+#: nft_application/src/components/mainPage/slider/slider.tsx:95
+msgid "title.4"
+msgstr "Stewart"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:191
+#: nft_application/src/components/mainPage/slider/slider.tsx:114
+msgid "title.5"
+msgstr "Ava"
+
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/components/mainPage/slider/slider.tsx:
+#: nft_application/src/pages/islandCheck/islandCheck.tsx:
+msgid "{0}"
+msgstr "{0}"
+
+#: nft_application/src/pages/mint/mint.tsx:184
+#~ msgid "{label}"
+#~ msgstr "{label}"
+
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:41
+#~ msgid "{rarety}"
+#~ msgstr "{rarety}"
+
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:46
+#~ msgid "{supply}"
+#~ msgstr "{supply}"
+
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:38
+#~ msgid "{title}"
+#~ msgstr "{title}"

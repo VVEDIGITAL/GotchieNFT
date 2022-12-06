@@ -19,6 +19,10 @@ import bright_casual_sky from "../../../../assets/main/right-down-bright.webp";
 import island3_mov from "../../../../assets/main/island3.mov";
 
 import "./gotchies.sass";
+import { Trans } from "@lingui/macro";
+import { t } from "@lingui/macro";
+// import { withI18n } from "@lingui/react";
+// import { i18n } from "@lingui/core";
 
 export function Gotchies() {
   const gotchieVariants = {
@@ -48,6 +52,7 @@ export function Gotchies() {
       },
     },
   };
+
   return (
     <section id="gotchies" className="gotchies">
       <div className="gotchies_island1">
@@ -72,7 +77,9 @@ export function Gotchies() {
           <img src={bright_casual_sky} alt="smoke" />
         </div>
 
-        <h2>Gotchies Time!</h2>
+        <h2>
+          <Trans>Gotchies Time!</Trans>
+        </h2>
 
         <div className="cards">
           <MGotchie_card
@@ -84,9 +91,19 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_girl}
-            title="Olivia"
-            supply="Child: 50"
-            rarety="free"
+            title={t({
+              id: "title.1",
+              message: `Olivia`,
+            })}
+            supply={t({
+              id: "supply.1",
+              message: `Child: 50`,
+            })}
+            rarety={t({
+              id: "rarety.1",
+              message: `free`,
+            })}
+            raretyUI="free"
             market_url="/"
           />
 
@@ -99,9 +116,19 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_boy2}
-            title="Andrew"
-            supply="Teen: 100"
-            rarety="common"
+            title={t({
+              id: "title.2",
+              message: `Andrew`,
+            })}
+            supply={t({
+              id: "supply.2",
+              message: `Teen: 100`,
+            })}
+            rarety={t({
+              id: "rarety.2",
+              message: `common`,
+            })}
+            raretyUI="common"
             market_url="/"
           />
 
@@ -114,9 +141,19 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_boy}
-            title="William"
-            supply="Adult: 10"
-            rarety="uncommon"
+            title={t({
+              id: "title.3",
+              message: `William`,
+            })}
+            supply={t({
+              id: "supply.3",
+              message: `Adult: 10`,
+            })}
+            rarety={t({
+              id: "rarety.3",
+              message: `uncommon`,
+            })}
+            raretyUI="uncommon"
             market_url="/"
           />
         </div>
@@ -130,9 +167,19 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_boy1}
-            title="Stewart"
-            supply="Child: 70"
-            rarety="rare"
+            title={t({
+              id: "title.4",
+              message: `Stewart`,
+            })}
+            supply={t({
+              id: "supply.4",
+              message: `Child: 70`,
+            })}
+            rarety={t({
+              id: "rarety.4",
+              message: `rare`,
+            })}
+            raretyUI="rare"
             market_url="/"
           />
 
@@ -145,9 +192,19 @@ export function Gotchies() {
             whileHover={"hovered"}
             variants={gotchieVariants}
             img={g_dragon}
-            title="Ava"
-            supply="Baby: 5"
-            rarety="legendary"
+            title={t({
+              id: "title.5",
+              message: `Ava`,
+            })}
+            supply={t({
+              id: "supply.5",
+              message: `Baby: 5`,
+            })}
+            rarety={t({
+              id: "rarety.5",
+              message: `legendary`,
+            })}
+            raretyUI="legendary"
             market_url="/"
           />
         </div>

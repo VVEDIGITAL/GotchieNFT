@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import { motion } from "framer-motion";
 import islandf from "../../../../assets/main/island_features.webp";
 import profile_icon from "../../../../assets/main/logo1.png";
@@ -42,14 +43,18 @@ export function Platform() {
         <div className="content-area">
           <div className="text-block">
             <h2>
-              Crypto Gotchies <br /> not your typical P2E game
+              <Trans>
+                Crypto Gotchies <br /> not your typical P2E game
+              </Trans>
             </h2>
             <h3>
-              We plan to create GotchiVerse and integrate social-fi creating
-              whole different AAA game experience. With future lobby update you
-              will be able to team up with your friends and explore Fun Lands
-              and even battle with other teams to split weekly prizes along with
-              top 10 teams from leaderboard.
+              <Trans>
+                We plan to create GotchiVerse and integrate social-fi creating
+                whole different AAA game experience. With future lobby update
+                you will be able to team up with your friends and explore Fun
+                Lands and even battle with other teams to split weekly prizes
+                along with top 10 teams from leaderboard.
+              </Trans>
             </h3>
           </div>
 
@@ -60,27 +65,37 @@ export function Platform() {
 
             <div className="first-tips-row">
               <div className="tip">
-                <span>GotchiVerse</span>
+                <span>
+                  <Trans>GotchiVerse</Trans>
+                </span>
                 <img src={profile_icon} alt="profile img-logo" />
               </div>
               <div className="tip">
-                <span className="onerow-span">Multiplayer </span>
+                <span className="onerow-span">
+                  <Trans>Multiplayer</Trans>{" "}
+                </span>
 
                 <img src={shield_icon} alt="shield img-logo" />
               </div>
               <div className="tip">
-                <span>Teams</span>
+                <span>
+                  <Trans>Teams</Trans>
+                </span>
                 <img src={chat_icon} alt="message img-logo" />
               </div>
             </div>
             <div className="second-tips-row">
               <div className="tip">
                 <img src={like_icon} alt="like img-logo" />
-                <span className="onerow-span">Leaderboard</span>
+                <span className="onerow-span">
+                  <Trans>Leaderboard</Trans>
+                </span>
               </div>
               <div className="tip">
                 <img src={check_icon} alt="task img-logo" />
-                <span>Updates</span>
+                <span>
+                  <Trans>Updates</Trans>
+                </span>
               </div>
             </div>
           </div>

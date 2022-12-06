@@ -6,6 +6,7 @@ import stage_logo from "../../../assets/main/stageLogo.webp";
 import burger_logo from "../../../assets/main/burger_logo.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { ErrorModal } from "../../errorModal/errorModal";
+import { Trans } from "@lingui/macro";
 
 interface SidebarProps {
   pageWrapId: string | undefined;
@@ -62,7 +63,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         className="menu-item"
         href="#hero"
       >
-        Home
+        <Trans>Home</Trans>
       </AnchorLink>
 
       <AnchorLink
@@ -72,7 +73,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         offset="200"
         href="#video"
       >
-        About
+        <Trans>About</Trans>
       </AnchorLink>
 
       <AnchorLink
@@ -82,7 +83,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         offset="200"
         href="#gotchies"
       >
-        Gotchies
+        <Trans>Gotchies</Trans>
       </AnchorLink>
 
       <AnchorLink
@@ -92,7 +93,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         offset="200"
         href="#features"
       >
-        Features
+        <Trans>Features</Trans>
       </AnchorLink>
 
       <AnchorLink
@@ -102,7 +103,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         offset="200"
         href="#adventures"
       >
-        Fun Lands
+        <Trans>Fun Lands</Trans>
       </AnchorLink>
 
       <AnchorLink
@@ -112,7 +113,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         offset="200"
         href="#team"
       >
-        Team
+        <Trans>Team</Trans>
       </AnchorLink>
 
       <AnchorLink
@@ -122,7 +123,7 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         offset="200"
         href="#roadmap"
       >
-        Roadmap
+        <Trans>Roadmap</Trans>
       </AnchorLink>
 
       <AnchorLink
@@ -132,11 +133,11 @@ export const Sidebar: FC<SidebarProps> = (pageWrapId, outerContainerId) => {
         offset="200"
         href="#partners"
       >
-        Partners
+        <Trans>Partners</Trans>
       </AnchorLink>
 
       <button onClick={openModal} className="app-button">
-        D.APP
+        <Trans>D.APP</Trans>
       </button>
     </Menu>
   );

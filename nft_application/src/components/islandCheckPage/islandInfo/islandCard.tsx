@@ -1,3 +1,4 @@
+import { Trans } from "@lingui/macro";
 import { motion } from "framer-motion";
 import { forwardRef, Ref, useState } from "react";
 import "./islandCard.sass";
@@ -24,11 +25,11 @@ export const IslandCard = forwardRef(
         {/* <img src={image} alt="island" /> */}
         <div className="content">
           <h3>
-            Name: <br />
+            <Trans>Name:</Trans> <br />
             <span>{name}</span>
           </h3>
           <h3>
-            Description:
+            <Trans>Description:</Trans>
             <br />
             <span>{description}</span>
           </h3>
