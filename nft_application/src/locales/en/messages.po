@@ -25,11 +25,11 @@ msgstr "$GOTCHI Presale"
 msgid "$GOTCHI is a BEP20 main in-game token which is used for NFT minting, buying additional items, levelling up and buying Fun Lands. You earn it by visiting Fun Lands"
 msgstr "$GOTCHI is a BEP20 main in-game token which is used for NFT minting, buying additional items, levelling up and buying Fun Lands. You earn it by visiting Fun Lands"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:235
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:233
 msgid "$GOTCHI on other chains"
 msgstr "$GOTCHI on other chains"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:232
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:230
 msgid "$GOTCHI staking"
 msgstr "$GOTCHI staking"
 
@@ -49,7 +49,7 @@ msgstr "(February 2023)"
 msgid "(January 2023)"
 msgstr "(January 2023)"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:212
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:210
 msgid "(March 2023)"
 msgstr "(March 2023)"
 
@@ -65,7 +65,7 @@ msgstr "0%"
 msgid "3D designer"
 msgstr "3D designer"
 
-#: nft_application/src/components/header_main_page/header.tsx:45
+#: nft_application/src/components/header_main_page/header.tsx:47
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:76
 msgid "About"
 msgstr "About"
@@ -94,7 +94,7 @@ msgstr "Audits"
 msgid "Branded Gotchi special"
 msgstr "Branded Gotchi special"
 
-#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:49
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:50
 msgid "Buy on platform"
 msgstr "Buy on platform"
 
@@ -126,7 +126,7 @@ msgstr "Christmas events"
 msgid "Click to copy"
 msgstr "Click to copy"
 
-#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:45
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:46
 msgid "Coming Soon"
 msgstr "Coming Soon"
 
@@ -163,7 +163,7 @@ msgstr "Crypto Gotchies is a unique P2E digital pet game about cute monsters bui
 msgid "Crypto Gotchies utilizes in-game wallet which stores your $GOTCHI safely and lets deposit or withdraw tokens at any time."
 msgstr "Crypto Gotchies utilizes in-game wallet which stores your $GOTCHI safely and lets deposit or withdraw tokens at any time."
 
-#: nft_application/src/components/header_main_page/header.tsx:89
+#: nft_application/src/components/header_main_page/header.tsx:92
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:140
 #: nft_application/src/components/mint/sidebar/sidebar.tsx:87
 msgid "D.APP"
@@ -201,12 +201,12 @@ msgstr "Explore"
 msgid "Exponential user growth"
 msgstr "Exponential user growth"
 
-#: nft_application/src/components/header_main_page/header.tsx:55
+#: nft_application/src/components/header_main_page/header.tsx:57
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:96
 msgid "Features"
 msgstr "Features"
 
-#: nft_application/src/pages/mint/mint.tsx:245
+#: nft_application/src/pages/mint/mint.tsx:257
 msgid "Four lands"
 msgstr "Four lands"
 
@@ -291,12 +291,12 @@ msgstr "Gotchi x Partners limited NFTs"
 msgid "GotchiVerse"
 msgstr "GotchiVerse"
 
-#: nft_application/src/components/header_main_page/header.tsx:50
+#: nft_application/src/components/header_main_page/header.tsx:52
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:86
 msgid "Gotchies"
 msgstr "Gotchies"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:226
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:224
 msgid "Gotchies Breeding"
 msgstr "Gotchies Breeding"
 
@@ -327,7 +327,7 @@ msgid "Home"
 msgstr "Home"
 
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:200
-#: nft_application/src/pages/mint/mint.tsx:254
+#: nft_application/src/pages/mint/mint.tsx:266
 msgid "How to mint"
 msgstr "How to mint"
 
@@ -357,7 +357,7 @@ msgid "Leaderboard"
 msgstr "Leaderboard"
 
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:197
-#: nft_application/src/pages/mint/mint.tsx:251
+#: nft_application/src/pages/mint/mint.tsx:263
 msgid "Learn about Fun Lands"
 msgstr "Learn about Fun Lands"
 
@@ -373,7 +373,7 @@ msgstr "Limited Winter Season Gotchies NFTs"
 msgid "Meet Gotchies"
 msgstr "Meet Gotchies"
 
-#: nft_application/src/components/header_main_page/header.tsx:69
+#: nft_application/src/components/header_main_page/header.tsx:71
 #: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:63
 #: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:101
 msgid "Mint Fun Lands"
@@ -387,7 +387,7 @@ msgstr "Mint Lands"
 msgid "Mint your Gotchi"
 msgstr "Mint your Gotchi"
 
-#: nft_application/src/pages/mint/mint.tsx:162
+#: nft_application/src/pages/mint/mint.tsx:174
 msgid "Mint your land NFT (Game access)"
 msgstr "Mint your land NFT (Game access)"
 
@@ -407,11 +407,11 @@ msgstr "Name:"
 msgid "New Updates"
 msgstr "New Updates"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:229
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:227
 msgid "New evolution stage"
 msgstr "New evolution stage"
 
-#: nft_application/src/pages/mint/mint.tsx:212
+#: nft_application/src/pages/mint/mint.tsx:224
 msgid "One land"
 msgstr "One land"
 
@@ -427,7 +427,7 @@ msgstr "PVP Mode Coming Soon"
 msgid "Pancakeswap Launch"
 msgstr "Pancakeswap Launch"
 
-#: nft_application/src/components/header_main_page/header.tsx:84
+#: nft_application/src/components/header_main_page/header.tsx:86
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:136
 msgid "Partners"
 msgstr "Partners"
@@ -448,7 +448,7 @@ msgstr "Project manager"
 msgid "PvP mode launch"
 msgstr "PvP mode launch"
 
-#: nft_application/src/components/header_main_page/header.tsx:79
+#: nft_application/src/components/header_main_page/header.tsx:81
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:21
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:126
 msgid "Roadmap"
@@ -466,7 +466,7 @@ msgstr "Secondary Market"
 msgid "Security first"
 msgstr "Security first"
 
-#: nft_application/src/pages/mint/mint.tsx:201
+#: nft_application/src/pages/mint/mint.tsx:213
 msgid "Select how many lands you want to mint"
 msgstr "Select how many lands you want to mint"
 
@@ -486,7 +486,7 @@ msgstr "Stage 2"
 msgid "Stage 3"
 msgstr "Stage 3"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:208
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:207
 msgid "Stage 4"
 msgstr "Stage 4"
 
@@ -494,7 +494,7 @@ msgstr "Stage 4"
 msgid "Take care"
 msgstr "Take care"
 
-#: nft_application/src/components/header_main_page/header.tsx:74
+#: nft_application/src/components/header_main_page/header.tsx:76
 #: nft_application/src/components/mainPage/sections/team/team.tsx:15
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:116
 msgid "Team"
@@ -504,7 +504,7 @@ msgstr "Team"
 msgid "Teams"
 msgstr "Teams"
 
-#: nft_application/src/pages/mint/mint.tsx:234
+#: nft_application/src/pages/mint/mint.tsx:246
 msgid "Three lands"
 msgstr "Three lands"
 
@@ -532,7 +532,7 @@ msgstr "True Ownership"
 msgid "Try your luck by betting $GOTCHI on the Gotchi Wheel."
 msgstr "Try your luck by betting $GOTCHI on the Gotchi Wheel."
 
-#: nft_application/src/pages/mint/mint.tsx:223
+#: nft_application/src/pages/mint/mint.tsx:235
 msgid "Two lands"
 msgstr "Two lands"
 
@@ -591,6 +591,10 @@ msgstr "Your Gotchi has 4 evolution stages: Baby, Child, Teen, Adult. Each stage
 msgid "blockchain dev"
 msgstr "blockchain dev"
 
+#: nft_application/src/pages/mint/mint.tsx:97
+msgid "connect.metamask"
+msgstr "Connect With Metamask"
+
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:163
 msgid "input.1"
 msgstr "Search island"
@@ -605,23 +609,23 @@ msgstr "Search island"
 msgid "rarety.1"
 msgstr "free"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:126
-#: nft_application/src/components/mainPage/slider/slider.tsx:66
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:127
+#: nft_application/src/components/mainPage/slider/slider.tsx:67
 msgid "rarety.2"
 msgstr "common"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:150
-#: nft_application/src/components/mainPage/slider/slider.tsx:84
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:152
+#: nft_application/src/components/mainPage/slider/slider.tsx:86
 msgid "rarety.3"
 msgstr "uncommon"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:175
-#: nft_application/src/components/mainPage/slider/slider.tsx:103
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:178
+#: nft_application/src/components/mainPage/slider/slider.tsx:106
 msgid "rarety.4"
 msgstr "rare"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:199
-#: nft_application/src/components/mainPage/slider/slider.tsx:122
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:203
+#: nft_application/src/components/mainPage/slider/slider.tsx:126
 msgid "rarety.5"
 msgstr "legendary"
 
@@ -630,48 +634,52 @@ msgstr "legendary"
 msgid "supply.1"
 msgstr "Child: 50"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:122
-#: nft_application/src/components/mainPage/slider/slider.tsx:62
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:123
+#: nft_application/src/components/mainPage/slider/slider.tsx:63
 msgid "supply.2"
 msgstr "Teen: 100"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:146
-#: nft_application/src/components/mainPage/slider/slider.tsx:80
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:148
+#: nft_application/src/components/mainPage/slider/slider.tsx:82
 msgid "supply.3"
 msgstr "Adult: 10"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:171
-#: nft_application/src/components/mainPage/slider/slider.tsx:99
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:174
+#: nft_application/src/components/mainPage/slider/slider.tsx:102
 msgid "supply.4"
 msgstr "Child: 70"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:195
-#: nft_application/src/components/mainPage/slider/slider.tsx:118
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:199
+#: nft_application/src/components/mainPage/slider/slider.tsx:122
 msgid "supply.5"
 msgstr "Baby: 5"
+
+#: nft_application/src/pages/mint/mint.tsx:88
+msgid "switch.metamask"
+msgstr "Switch network"
 
 #: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:94
 #: nft_application/src/components/mainPage/slider/slider.tsx:40
 msgid "title.1"
 msgstr "Olivia"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:118
-#: nft_application/src/components/mainPage/slider/slider.tsx:58
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:119
+#: nft_application/src/components/mainPage/slider/slider.tsx:59
 msgid "title.2"
 msgstr "Andrew"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:142
-#: nft_application/src/components/mainPage/slider/slider.tsx:76
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:144
+#: nft_application/src/components/mainPage/slider/slider.tsx:78
 msgid "title.3"
 msgstr "William"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:167
-#: nft_application/src/components/mainPage/slider/slider.tsx:95
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:170
+#: nft_application/src/components/mainPage/slider/slider.tsx:98
 msgid "title.4"
 msgstr "Stewart"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:191
-#: nft_application/src/components/mainPage/slider/slider.tsx:114
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:195
+#: nft_application/src/components/mainPage/slider/slider.tsx:118
 msgid "title.5"
 msgstr "Ava"
 
@@ -706,6 +714,8 @@ msgstr "Ava"
 #: nft_application/src/components/mainPage/slider/slider.tsx:
 #: nft_application/src/components/mainPage/slider/slider.tsx:
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:
+#: nft_application/src/pages/mint/mint.tsx:
+#: nft_application/src/pages/mint/mint.tsx:
 msgid "{0}"
 msgstr "{0}"
 

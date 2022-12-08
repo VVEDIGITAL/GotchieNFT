@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import { ErrorModal } from "../errorModal/errorModal";
 import { NavLink } from "react-router-dom";
 import { Trans } from "@lingui/macro";
+import LanguageSelector from "../languageSelector/LanguageSelector";
+import { i18n } from "@lingui/core";
 
 const calcOffset = (perc: number) => {
   return (window.outerHeight * perc) / 100;
@@ -85,6 +87,7 @@ export function Header() {
               </li>
             </AnchorLink>{" "}
           </ul>
+
           <button onClick={openModal}>
             <Trans>D.APP</Trans>
           </button>

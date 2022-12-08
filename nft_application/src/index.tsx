@@ -37,13 +37,18 @@ i18n.load({
   zh: messagesZh,
 });
 
-if (result == "zh") {
-  i18n.activate("zh");
-} else {
-  i18n.activate("en");
+console.log(localStorage.getItem("language"));
+if (localStorage.getItem("language") == null)
+  if (result == "zh") {
+    i18n.activate("zh");
+  } else {
+    i18n.activate("en");
+  }
+else {
+  i18n.activate(String(localStorage.getItem("language")));
 }
 
-// console.log(i18n._locale);
+console.log(i18n._locale);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

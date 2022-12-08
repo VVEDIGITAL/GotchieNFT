@@ -25,11 +25,11 @@ msgstr "$GOTCHI 预售"
 msgid "$GOTCHI is a BEP20 main in-game token which is used for NFT minting, buying additional items, levelling up and buying Fun Lands. You earn it by visiting Fun Lands"
 msgstr "$GOTCHI 是一个BEP20的主要游戏内代币，用于NFT铸币，购买额外的物品，提升等级和购买乐趣之地。你可以通过访问有趣的土地来获得它"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:235
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:233
 msgid "$GOTCHI on other chains"
 msgstr "$GOTCHI 在其他连锁店"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:232
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:230
 msgid "$GOTCHI staking"
 msgstr "赌注为 $GOTCHI"
 
@@ -49,7 +49,7 @@ msgstr "(2023年2月)"
 msgid "(January 2023)"
 msgstr "(2023年1月)"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:212
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:210
 msgid "(March 2023)"
 msgstr "(2023年3月)"
 
@@ -65,7 +65,7 @@ msgstr "0%"
 msgid "3D designer"
 msgstr "3D设计师"
 
-#: nft_application/src/components/header_main_page/header.tsx:45
+#: nft_application/src/components/header_main_page/header.tsx:47
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:76
 msgid "About"
 msgstr "关于"
@@ -94,7 +94,7 @@ msgstr "审计"
 msgid "Branded Gotchi special"
 msgstr "品牌的Gotchi特别版"
 
-#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:49
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:50
 msgid "Buy on platform"
 msgstr "在平台上购买"
 
@@ -126,7 +126,7 @@ msgstr "圣诞节活动"
 msgid "Click to copy"
 msgstr "点击复制"
 
-#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:45
+#: nft_application/src/components/mainPage/gotchie_card/gotchie_card.tsx:46
 msgid "Coming Soon"
 msgstr "即将推出"
 
@@ -163,7 +163,7 @@ msgstr "Crypto Gotchies是一个独特的P2E数字宠物游戏，关于可爱的
 msgid "Crypto Gotchies utilizes in-game wallet which stores your $GOTCHI safely and lets deposit or withdraw tokens at any time."
 msgstr "Crypto Gotchies利用游戏中的钱包，安全地存储你的$GOTCHI，并允许在任何时候存入或提取代币。"
 
-#: nft_application/src/components/header_main_page/header.tsx:89
+#: nft_application/src/components/header_main_page/header.tsx:92
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:140
 #: nft_application/src/components/mint/sidebar/sidebar.tsx:87
 msgid "D.APP"
@@ -201,12 +201,12 @@ msgstr "探索"
 msgid "Exponential user growth"
 msgstr "指数级的用户增长"
 
-#: nft_application/src/components/header_main_page/header.tsx:55
+#: nft_application/src/components/header_main_page/header.tsx:57
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:96
 msgid "Features"
 msgstr "特点"
 
-#: nft_application/src/pages/mint/mint.tsx:245
+#: nft_application/src/pages/mint/mint.tsx:257
 msgid "Four lands"
 msgstr "四块土地"
 
@@ -291,12 +291,12 @@ msgstr "高奇x合作伙伴有限的NFTs"
 msgid "GotchiVerse"
 msgstr "GotchiVerse"
 
-#: nft_application/src/components/header_main_page/header.tsx:50
+#: nft_application/src/components/header_main_page/header.tsx:52
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:86
 msgid "Gotchies"
 msgstr "Gotchies"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:226
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:224
 msgid "Gotchies Breeding"
 msgstr "Gotchies 育种"
 
@@ -327,7 +327,7 @@ msgid "Home"
 msgstr "首页"
 
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:200
-#: nft_application/src/pages/mint/mint.tsx:254
+#: nft_application/src/pages/mint/mint.tsx:266
 msgid "How to mint"
 msgstr "如何造币"
 
@@ -357,7 +357,7 @@ msgid "Leaderboard"
 msgstr "排行榜"
 
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:197
-#: nft_application/src/pages/mint/mint.tsx:251
+#: nft_application/src/pages/mint/mint.tsx:263
 msgid "Learn about Fun Lands"
 msgstr "了解有趣的土地"
 
@@ -373,7 +373,7 @@ msgstr "冬季有限的Gotchies NFTs"
 msgid "Meet Gotchies"
 msgstr "满足 Gotchies"
 
-#: nft_application/src/components/header_main_page/header.tsx:69
+#: nft_application/src/components/header_main_page/header.tsx:71
 #: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:63
 #: nft_application/src/components/mainPage/sections/adventures/adventures.tsx:101
 msgid "Mint Fun Lands"
@@ -387,7 +387,7 @@ msgstr "薄荷 Lands"
 msgid "Mint your Gotchi"
 msgstr "薄荷你的Gotchi"
 
-#: nft_application/src/pages/mint/mint.tsx:162
+#: nft_application/src/pages/mint/mint.tsx:174
 msgid "Mint your land NFT (Game access)"
 msgstr "铸造你的土地NFT（游戏访问）。"
 
@@ -407,11 +407,11 @@ msgstr "名称。"
 msgid "New Updates"
 msgstr "新的更新"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:229
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:227
 msgid "New evolution stage"
 msgstr "新的演变阶段"
 
-#: nft_application/src/pages/mint/mint.tsx:212
+#: nft_application/src/pages/mint/mint.tsx:224
 msgid "One land"
 msgstr "一片土地"
 
@@ -427,7 +427,7 @@ msgstr "即将推出PVP模式"
 msgid "Pancakeswap Launch"
 msgstr "Pancakeswap启动"
 
-#: nft_application/src/components/header_main_page/header.tsx:84
+#: nft_application/src/components/header_main_page/header.tsx:86
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:136
 msgid "Partners"
 msgstr "合作伙伴"
@@ -448,7 +448,7 @@ msgstr "项目经理"
 msgid "PvP mode launch"
 msgstr "PvP模式启动"
 
-#: nft_application/src/components/header_main_page/header.tsx:79
+#: nft_application/src/components/header_main_page/header.tsx:81
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:21
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:126
 msgid "Roadmap"
@@ -466,7 +466,7 @@ msgstr "二级市场"
 msgid "Security first"
 msgstr "安全第一"
 
-#: nft_application/src/pages/mint/mint.tsx:201
+#: nft_application/src/pages/mint/mint.tsx:213
 msgid "Select how many lands you want to mint"
 msgstr "选择你想要铸币的土地数量"
 
@@ -486,7 +486,7 @@ msgstr "第二阶段"
 msgid "Stage 3"
 msgstr "第三阶段"
 
-#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:208
+#: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:207
 msgid "Stage 4"
 msgstr "第四阶段"
 
@@ -494,7 +494,7 @@ msgstr "第四阶段"
 msgid "Take care"
 msgstr "照顾好自己"
 
-#: nft_application/src/components/header_main_page/header.tsx:74
+#: nft_application/src/components/header_main_page/header.tsx:76
 #: nft_application/src/components/mainPage/sections/team/team.tsx:15
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:116
 msgid "Team"
@@ -504,7 +504,7 @@ msgstr "团队"
 msgid "Teams"
 msgstr "团队"
 
-#: nft_application/src/pages/mint/mint.tsx:234
+#: nft_application/src/pages/mint/mint.tsx:246
 msgid "Three lands"
 msgstr "三块土地"
 
@@ -532,7 +532,7 @@ msgstr "真正的所有权"
 msgid "Try your luck by betting $GOTCHI on the Gotchi Wheel."
 msgstr "试试你的运气，在Gotchi轮上投注$GOTCHI。"
 
-#: nft_application/src/pages/mint/mint.tsx:223
+#: nft_application/src/pages/mint/mint.tsx:235
 msgid "Two lands"
 msgstr "两块土地"
 
@@ -595,6 +595,10 @@ msgstr "你的Gotchi有4个进化阶段。婴儿、儿童、青少年、成人�
 msgid "blockchain dev"
 msgstr "区块链开发"
 
+#: nft_application/src/pages/mint/mint.tsx:97
+msgid "connect.metamask"
+msgstr "连接Metamask"
+
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:163
 msgid "input.1"
 msgstr "搜索岛屿"
@@ -604,23 +608,23 @@ msgstr "搜索岛屿"
 msgid "rarety.1"
 msgstr "免费的"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:126
-#: nft_application/src/components/mainPage/slider/slider.tsx:66
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:127
+#: nft_application/src/components/mainPage/slider/slider.tsx:67
 msgid "rarety.2"
 msgstr "常见的"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:150
-#: nft_application/src/components/mainPage/slider/slider.tsx:84
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:152
+#: nft_application/src/components/mainPage/slider/slider.tsx:86
 msgid "rarety.3"
 msgstr "不常见的"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:175
-#: nft_application/src/components/mainPage/slider/slider.tsx:103
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:178
+#: nft_application/src/components/mainPage/slider/slider.tsx:106
 msgid "rarety.4"
 msgstr "罕见"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:199
-#: nft_application/src/components/mainPage/slider/slider.tsx:122
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:203
+#: nft_application/src/components/mainPage/slider/slider.tsx:126
 msgid "rarety.5"
 msgstr "传说中的"
 
@@ -629,48 +633,52 @@ msgstr "传说中的"
 msgid "supply.1"
 msgstr "儿童。50"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:122
-#: nft_application/src/components/mainPage/slider/slider.tsx:62
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:123
+#: nft_application/src/components/mainPage/slider/slider.tsx:63
 msgid "supply.2"
 msgstr "青少年: 100"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:146
-#: nft_application/src/components/mainPage/slider/slider.tsx:80
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:148
+#: nft_application/src/components/mainPage/slider/slider.tsx:82
 msgid "supply.3"
 msgstr "成人：10"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:171
-#: nft_application/src/components/mainPage/slider/slider.tsx:99
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:174
+#: nft_application/src/components/mainPage/slider/slider.tsx:102
 msgid "supply.4"
 msgstr "儿童。70"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:195
-#: nft_application/src/components/mainPage/slider/slider.tsx:118
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:199
+#: nft_application/src/components/mainPage/slider/slider.tsx:122
 msgid "supply.5"
 msgstr "婴儿：5岁"
+
+#: nft_application/src/pages/mint/mint.tsx:88
+msgid "switch.metamask"
+msgstr "开关网络"
 
 #: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:94
 #: nft_application/src/components/mainPage/slider/slider.tsx:40
 msgid "title.1"
 msgstr "奥利维亚"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:118
-#: nft_application/src/components/mainPage/slider/slider.tsx:58
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:119
+#: nft_application/src/components/mainPage/slider/slider.tsx:59
 msgid "title.2"
 msgstr "安德鲁"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:142
-#: nft_application/src/components/mainPage/slider/slider.tsx:76
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:144
+#: nft_application/src/components/mainPage/slider/slider.tsx:78
 msgid "title.3"
 msgstr "威廉"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:167
-#: nft_application/src/components/mainPage/slider/slider.tsx:95
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:170
+#: nft_application/src/components/mainPage/slider/slider.tsx:98
 msgid "title.4"
 msgstr "斯图尔特"
 
-#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:191
-#: nft_application/src/components/mainPage/slider/slider.tsx:114
+#: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:195
+#: nft_application/src/components/mainPage/slider/slider.tsx:118
 msgid "title.5"
 msgstr "阿瓦"
 
@@ -705,5 +713,7 @@ msgstr "阿瓦"
 #: nft_application/src/components/mainPage/slider/slider.tsx:
 #: nft_application/src/components/mainPage/slider/slider.tsx:
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:
+#: nft_application/src/pages/mint/mint.tsx:
+#: nft_application/src/pages/mint/mint.tsx:
 msgid "{0}"
 msgstr "{0}"

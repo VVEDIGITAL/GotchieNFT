@@ -25,7 +25,7 @@ import {
 import { metaMaskConnector } from "../../connection/metamask";
 import { useWeb3React } from "@web3-react/core";
 import { BigNumber, providers, Contract } from "ethers";
-import { Trans } from "@lingui/macro";
+import { t, Trans } from "@lingui/macro";
 
 // import { Trans as TransR } from "@lingui/react";
 
@@ -84,10 +84,22 @@ const useConnectButton = (): [string, () => void] => {
     return [account?.slice(0, 4) + "..." + account?.slice(-4), callback];
   }
   if (account) {
-    return ["Switch network", switchCallback];
+    return [
+      t({
+        id: "switch.metamask",
+        message: `Switch network`,
+      }),
+      switchCallback,
+    ];
   }
 
-  return ["Connect With Metamask", connect];
+  return [
+    t({
+      id: "connect.metamask",
+      message: `Connect With Metamask`,
+    }),
+    connect,
+  ];
 };
 
 const heroH1variants = {
