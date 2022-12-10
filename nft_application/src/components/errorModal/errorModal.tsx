@@ -3,6 +3,8 @@ import Modal from "../modal/modal";
 import "./errorModal.sass";
 
 import coming from "../../assets/modal/coming-soon.png";
+import { i18n } from "@lingui/core";
+import coming_zh from "../../assets/modal/coming-modal-zh.webp";
 
 export interface ModalProps {
   isOpen: boolean;
@@ -24,7 +26,10 @@ export const ErrorModal: FunctionComponent<ModalProps> = ({
         onClose={onClose}
         body={
           <div>
-            <img src={coming} alt="coming img popup" />
+            <img
+              src={i18n._locale == "zh" ? coming_zh : coming}
+              alt="coming img popup"
+            />
           </div>
         }
       />
