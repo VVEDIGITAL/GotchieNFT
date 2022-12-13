@@ -34,7 +34,7 @@ export const IslandCard = forwardRef(
             <span>{description}</span>
           </h3>
 
-          <div className="attrs">
+          {/* <div className="attrs">
             {attributes?.map((attr) => (
               <>
                 {" "}
@@ -42,7 +42,33 @@ export const IslandCard = forwardRef(
                   {attr.trait_type}: <span>{attr.value}</span>
                 </h3>{" "}
               </>
-            ))}
+            ))} */}
+          {/* </div> */}
+
+          <div className="attrs">
+            {attributes ? (
+              <>
+                {" "}
+                <h3>
+                  <Trans>Rarity:</Trans> <span>{attributes[0]?.value}</span>
+                </h3>{" "}
+                <h3>
+                  <Trans>Energy:</Trans> <span>{attributes[1]?.value}</span>
+                </h3>{" "}
+                <h3>
+                  <Trans>Durability:</Trans> <span>{attributes[2]?.value}</span>
+                </h3>{" "}
+                <h3>
+                  <Trans>Shards:</Trans> <span>{attributes[3]?.value}</span>
+                </h3>{" "}
+                <h3>
+                  <Trans>Max_property:</Trans>{" "}
+                  <span>{attributes[4]?.value}</span>
+                </h3>{" "}
+              </>
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>

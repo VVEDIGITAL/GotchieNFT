@@ -17,7 +17,7 @@ msgstr ""
 msgid "9"
 msgstr "9"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:55
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:61
 msgid "$GOTCHI Presale"
 msgstr "$GOTCHI Presale"
 
@@ -70,7 +70,7 @@ msgstr "3D designer"
 msgid "About"
 msgstr "About"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:89
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:95
 msgid "Achievements"
 msgstr "Achievements"
 
@@ -82,7 +82,7 @@ msgstr "All Gotchies have their own Space! You can customize it using furniture.
 msgid "All Gotchies need to be well taken care of. This is done by completing mini-tasks such as feeding, hygiene care and sleep."
 msgstr "All Gotchies need to be well taken care of. This is done by completing mini-tasks such as feeding, hygiene care and sleep."
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:107
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:113
 msgid "Audit"
 msgstr "Audit"
 
@@ -177,13 +177,21 @@ msgstr "Decimals:"
 msgid "Description:"
 msgstr "Description:"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:97
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:103
 msgid "Documents"
 msgstr "Documents"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:59
+msgid "Durability:"
+msgstr "Durability:"
 
 #: nft_application/src/components/mainPage/sections/special/special.tsx:29
 msgid "Each day we pursue getting new partners onboard by offering branded limited NFT Gotchies and Additional Items collectibles."
 msgstr "Each day we pursue getting new partners onboard by offering branded limited NFT Gotchies and Additional Items collectibles."
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:56
+msgid "Energy:"
+msgstr "Energy:"
 
 #: nft_application/src/pages/error404/errorPage.tsx:8
 msgid "Error"
@@ -235,7 +243,7 @@ msgstr "Fun Lands side missions"
 msgid "GOTCHIES"
 msgstr "GOTCHIES"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:74
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:80
 msgid "Game"
 msgstr "Game"
 
@@ -247,7 +255,7 @@ msgstr "Game Alpha release"
 msgid "Game Concept"
 msgstr "Game Concept"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:79
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:85
 msgid "Game World"
 msgstr "Game World"
 
@@ -339,19 +347,19 @@ msgstr "In-Game Wallet"
 msgid "In-game wallet system"
 msgstr "In-game wallet system"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:50
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:56
 msgid "Invest"
 msgstr "Invest"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:17
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:20
 msgid "Join Us"
 msgstr "Join Us"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:112
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:118
 msgid "KYC"
 msgstr "KYC"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:84
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:90
 #: nft_application/src/components/mainPage/sections/platform/platform.tsx:91
 msgid "Leaderboard"
 msgstr "Leaderboard"
@@ -369,6 +377,10 @@ msgstr "Learn more"
 msgid "Limited Winter Season Gotchies NFTs"
 msgstr "Limited Winter Season Gotchies NFTs"
 
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:65
+msgid "Max_property:"
+msgstr "Max_property:"
+
 #: nft_application/src/components/mainPage/sections/avatars/avatars.tsx:210
 msgid "Meet Gotchies"
 msgstr "Meet Gotchies"
@@ -379,7 +391,7 @@ msgstr "Meet Gotchies"
 msgid "Mint Fun Lands"
 msgstr "Mint Fun Lands"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:60
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:66
 msgid "Mint Lands"
 msgstr "Mint Lands"
 
@@ -395,7 +407,7 @@ msgstr "Mint your land NFT (Game access)"
 msgid "Multiplayer"
 msgstr "Multiplayer"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:66
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:72
 msgid "NFT Market"
 msgstr "NFT Market"
 
@@ -403,7 +415,7 @@ msgstr "NFT Market"
 msgid "Name:"
 msgstr "Name:"
 
-#: nft_application/src/components/mainPage/sections/sales/sales.tsx:11
+#: nft_application/src/components/mainPage/sections/sales/sales.tsx:13
 msgid "New Updates"
 msgstr "New Updates"
 
@@ -448,6 +460,10 @@ msgstr "Project manager"
 msgid "PvP mode launch"
 msgstr "PvP mode launch"
 
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:53
+msgid "Rarity:"
+msgstr "Rarity:"
+
 #: nft_application/src/components/header_main_page/header.tsx:81
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:21
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:126
@@ -469,6 +485,10 @@ msgstr "Security first"
 #: nft_application/src/pages/mint/mint.tsx:213
 msgid "Select how many lands you want to mint"
 msgstr "Select how many lands you want to mint"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:62
+msgid "Shards:"
+msgstr "Shards:"
 
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:32
 msgid "Stage 0"
@@ -573,7 +593,7 @@ msgstr "Web designer"
 msgid "Website launch"
 msgstr "Website launch"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:102
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:108
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:52
 msgid "Whitepaper"
 msgstr "Whitepaper"
@@ -595,9 +615,21 @@ msgstr "blockchain dev"
 msgid "connect.metamask"
 msgstr "Connect With Metamask"
 
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:59
+#~ msgid "durability:"
+#~ msgstr "durability:"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:56
+#~ msgid "energy:"
+#~ msgstr "energy:"
+
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:163
 msgid "input.1"
 msgstr "Search island"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:65
+#~ msgid "max_property:"
+#~ msgstr "max_property:"
 
 #. Greetings at the homepage
 #: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:67
@@ -628,6 +660,14 @@ msgstr "rare"
 #: nft_application/src/components/mainPage/slider/slider.tsx:126
 msgid "rarety.5"
 msgstr "legendary"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:53
+#~ msgid "rarity:"
+#~ msgstr "rarity:"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:62
+#~ msgid "shards:"
+#~ msgstr "shards:"
 
 #: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:98
 #: nft_application/src/components/mainPage/slider/slider.tsx:44

@@ -17,7 +17,7 @@ msgstr ""
 msgid "9"
 msgstr "9"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:55
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:61
 msgid "$GOTCHI Presale"
 msgstr "$GOTCHI 预售"
 
@@ -70,7 +70,7 @@ msgstr "3D设计师"
 msgid "About"
 msgstr "关于"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:89
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:95
 msgid "Achievements"
 msgstr "成就"
 
@@ -82,7 +82,7 @@ msgstr "所有Gotchies都有自己的空间! 你可以用家具来定制它。�
 msgid "All Gotchies need to be well taken care of. This is done by completing mini-tasks such as feeding, hygiene care and sleep."
 msgstr "所有Gotchies都需要得到很好的照顾。这是通过完成小型任务来完成的，如喂养、卫生护理和睡眠。"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:107
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:113
 msgid "Audit"
 msgstr "审计"
 
@@ -177,13 +177,21 @@ msgstr "小数。"
 msgid "Description:"
 msgstr "描述。"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:97
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:103
 msgid "Documents"
 msgstr "文件"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:59
+msgid "Durability:"
+msgstr "耐用性。"
 
 #: nft_application/src/components/mainPage/sections/special/special.tsx:29
 msgid "Each day we pursue getting new partners onboard by offering branded limited NFT Gotchies and Additional Items collectibles."
 msgstr "每一天，我们通过提供品牌限定的NFT Gotchies和附加物品收藏品，追求新伙伴的加入。"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:56
+msgid "Energy:"
+msgstr "能源。"
 
 #: nft_application/src/pages/error404/errorPage.tsx:8
 msgid "Error"
@@ -235,7 +243,7 @@ msgstr "趣味性的土地副任务"
 msgid "GOTCHIES"
 msgstr "GOTCHIES"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:74
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:80
 msgid "Game"
 msgstr "游戏"
 
@@ -247,7 +255,7 @@ msgstr "游戏Alpha版发布"
 msgid "Game Concept"
 msgstr "游戏概念"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:79
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:85
 msgid "Game World"
 msgstr "游戏世界"
 
@@ -339,19 +347,19 @@ msgstr "游戏中的钱包"
 msgid "In-game wallet system"
 msgstr "游戏中的钱包系统"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:50
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:56
 msgid "Invest"
 msgstr "投资"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:17
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:20
 msgid "Join Us"
 msgstr "加入我们"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:112
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:118
 msgid "KYC"
 msgstr "KYC"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:84
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:90
 #: nft_application/src/components/mainPage/sections/platform/platform.tsx:91
 msgid "Leaderboard"
 msgstr "排行榜"
@@ -369,6 +377,10 @@ msgstr "了解更多"
 msgid "Limited Winter Season Gotchies NFTs"
 msgstr "冬季有限的Gotchies NFTs"
 
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:65
+msgid "Max_property:"
+msgstr "最大属性:"
+
 #: nft_application/src/components/mainPage/sections/avatars/avatars.tsx:210
 msgid "Meet Gotchies"
 msgstr "满足 Gotchies"
@@ -379,7 +391,7 @@ msgstr "满足 Gotchies"
 msgid "Mint Fun Lands"
 msgstr "薄荷币 Fun Lands"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:60
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:66
 msgid "Mint Lands"
 msgstr "薄荷 Lands"
 
@@ -395,7 +407,7 @@ msgstr "铸造你的土地NFT（游戏访问）。"
 msgid "Multiplayer"
 msgstr "多人游戏"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:66
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:72
 msgid "NFT Market"
 msgstr "NFT市场"
 
@@ -403,7 +415,7 @@ msgstr "NFT市场"
 msgid "Name:"
 msgstr "名称。"
 
-#: nft_application/src/components/mainPage/sections/sales/sales.tsx:11
+#: nft_application/src/components/mainPage/sections/sales/sales.tsx:13
 msgid "New Updates"
 msgstr "新的更新"
 
@@ -448,6 +460,10 @@ msgstr "项目经理"
 msgid "PvP mode launch"
 msgstr "PvP模式启动"
 
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:53
+msgid "Rarity:"
+msgstr "稀有性:"
+
 #: nft_application/src/components/header_main_page/header.tsx:81
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:21
 #: nft_application/src/components/mainPage/sidebar/sidebar.tsx:126
@@ -469,6 +485,10 @@ msgstr "安全第一"
 #: nft_application/src/pages/mint/mint.tsx:213
 msgid "Select how many lands you want to mint"
 msgstr "选择你想要铸币的土地数量"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:62
+msgid "Shards:"
+msgstr "碎片。"
 
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:32
 msgid "Stage 0"
@@ -577,7 +597,7 @@ msgstr "网页设计师"
 msgid "Website launch"
 msgstr "网站启动"
 
-#: nft_application/src/components/mainPage/sections/footer/footer.tsx:102
+#: nft_application/src/components/mainPage/sections/footer/footer.tsx:108
 #: nft_application/src/components/mainPage/sections/roadmap/roadmap.tsx:52
 msgid "Whitepaper"
 msgstr "白皮书"
@@ -599,9 +619,21 @@ msgstr "区块链开发"
 msgid "connect.metamask"
 msgstr "连接Metamask"
 
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:59
+#~ msgid "durability:"
+#~ msgstr "耐用性:"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:56
+#~ msgid "energy:"
+#~ msgstr "能源:"
+
 #: nft_application/src/pages/islandCheck/islandCheck.tsx:163
 msgid "input.1"
 msgstr "搜索岛屿"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:65
+#~ msgid "max_property:"
+#~ msgstr "最大属性:"
 
 #: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:102
 #: nft_application/src/components/mainPage/slider/slider.tsx:48
@@ -627,6 +659,14 @@ msgstr "罕见"
 #: nft_application/src/components/mainPage/slider/slider.tsx:126
 msgid "rarety.5"
 msgstr "传说中的"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:53
+#~ msgid "rarity:"
+#~ msgstr "难得:"
+
+#: nft_application/src/components/islandCheckPage/islandInfo/islandCard.tsx:62
+#~ msgid "shards:"
+#~ msgstr "碎片:"
 
 #: nft_application/src/components/mainPage/sections/gotchies/gotchies.tsx:98
 #: nft_application/src/components/mainPage/slider/slider.tsx:44
